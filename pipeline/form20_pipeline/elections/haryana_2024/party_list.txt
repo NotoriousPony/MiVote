@@ -1,0 +1,90 @@
+1 Kalka | BJP Shakti Rani Sharma | INC Pardeep Chaudhary | BSP Charan Singh
+2 Panchkula | BJP Gian Chand Gupta | INC Chander Mohan | INLD Kshitij Chaudhary | JJP Sushil Garg
+3 Naraingarh | BJP Pawan Saini | INC Shalley Chaudhary | BSP Harbilas Singh
+4 Ambala Cant. | BJP Anil Vij | INC Parimal Pari | INLD Onkar Singh | JJP Avtar Kardhan
+5 Ambala City | BJP Aseem Goel | INC Nirmal Singh | BSP Malkit Singh | ASP(KR) Parul Nagpal
+6 Mulana (SC) | BJP Santosh Sarwan | INC Pooja Chaudhary | INLD Parkash Bharti | JJP Ravindra Dheen
+7 Sadhaura (SC) | BJP Balwant Singh | INC Renu Bala | BSP Brij Pal | ASP(KR) Sohail
+8 Jagadhri | BJP Kanwar Pal Gujjar | INC Akram Khan | BSP Darshan Lal Kheda | ASP(KR) Ashok Kashyap
+9 Yamunanagar | BJP Ghanshyam Dass | INC Raman Tyagi | INLD Dilbag Singh | JJP Intezaar Ali Gurjar
+10 Radaur | BJP Shyam Singh Rana | INC Bishan Lal Saini | BSP Dharampal Tigga | ASP(KR) Mandeep Topra
+11 Ladwa | BJP Nayab Singh Saini | INC Mewa Singh | INLD Sapna Barshami | JJP Vinod Sharma
+12 Shahbad (SC) | BJP Subhash Kalsana | INC Ram Karan | BSP Chander Bhan | JJP Rajita Singh
+13 Thanesar | BJP Subhash Sudha | INC Ashok Kumar Arora | BSP Tanuja | JJP Surya Pratap Singh Rathod
+14 Pehowa | BJP Jai Bhagwan Sharma | INC Mandeep Singh Chatha | INLD Baldev Singh Warraich | JJP Dr Sukhvinder Kaur
+15 Guhla (SC) | BJP Kulwant Ram Bazigar | INC Devinder Hans | INLD Poonam Sultaniya | JJP Krishna Bazigar
+16 Kalayat | BJP Kamlesh Dhanda | INC Vikas Saharan | INLD Rampal Majra | JJP Pritam Mehra Kolekhan
+17 Kaithal | BJP Leela Ram | INC Aditya Surjewala | BSP Anil Kumar | JJP Sandeep Garhi
+18 Pundri | BJP Satpal Jamba | INC Sultan Singh Jadola | BSP Hisam Singh
+19 Nilokheri (SC) | BJP Bhagwan Das | INC Dharam Pal Gonder | INLD Balwan Balmiki | ASP(KR) Karn Singh Bhukkal
+20 Indri | BJP Ram Kumar Kashyap | INC Rakesh Kumar Kamboj | BSP Surender Kumar | JJP Kuldeep Mandhan
+21 Karnal | BJP Jagmohan Anand | INC Sumita Virk | INLD Surjeet Singh Pehalwan | JJP Jitendra Rayal
+22 Gharaunda | BJP Harvinder Kalyan | INC Virender Singh Rathore | INLD Mannu Kashyap | JJP Rajpal
+23 Assandh | BJP Yogender Singh Rana | INC Shamsher Singh Gogi | BSP Gopal Singh Rana
+24 Panipat Rural | BJP Mahipal Dhanda | INC Sachin Kundu | BSP Ranbir Singh | JJP Raghunath Kashyap
+25 Panipat City | BJP Parmod Kumar Vij | INC Varinder Kumar Shah | BSP Saroj Bala
+26 Israna (SC) | BJP Krishan Lal Panwar | INC Balbir Singh | INLD Suraj Bhan Nara | JJP Sunil Saudapur
+27 Samalkha | BJP Manmohan Bhadana | INC Dharam Singh Chhoker | INLD Rajesh Jhattipur | JJP Gangaram Swami
+28 Ganaur | BJP Devender Kaushik | INC Kuldeep Sharma | BSP Nar Singh | JJP Anil Tyagi
+29 Rai | BJP Krishna Gahlawat | INC Jai Bhagwan Antil | INLD Pramod Dahiya | JJP Bijender Antil Murthal
+30 Kharkhauda (SC) | BJP Pawan Kharkhauda | INC Jaiveer Singh | INLD Pritam Khokhar | JJP Ramesh Khatak
+31 Sonipat | BJP Nikhil Madan | INC Surender Panwar | INLD Shradha Ram | ASP(KR) Rajesh
+32 Gohana | BJP Arvind Sharma | INC Jagbir Singh Malik | BSP Dinesh Kumar | JJP Kuldeep Malik
+33 Baroda | BJP Pradeep Sangwan | INC Indu Raj Narwal | BSP Dharambir Singh | JJP Deepak Malik
+34 Julana | BJP Captain Yogesh Bairagi | INC Vinesh Phogat | INLD Surender Lathar | JJP Amarjeet Dhanda
+35 Safidon | BJP Ram Kumar Gautam | INC Subhash Gangoli | BSP Pinki | JJP Sushil Bairagi
+36 Jind | BJP Krishan Lal Middha | INC Mahabir Gupta | INLD Narendra Nath Sharma | JJP Dharampal Prajapat
+37 Uchana Kalan | BJP Devender Attri | INC Brijendra Singh | INLD Vinod Pal | JJP Dushyant Chautala
+38 Narwana (SC) | BJP Krishan Kumar Bedi | INC Satbir Dublain | INLD Bidya Rani | JJP Santosh Danoda
+39 Tohana | BJP Devender Singh Babli | INC Paramvir Singh | INLD Kunal Karan Singh | JJP Hawa Singh Khobra
+40 Fatehabad | BJP Dura Ram | INC Balwan Singh Daulatpuria | INLD Sunaina Chautala | JJP Subhash Gorchhiya
+41 Ratia (SC) | BJP Sunita Duggal | INC Jarnail Singh | BSP Chhindwara Pal | JJP Ramesh Kumar Od
+42 Kalanwali (SC) | BJP Rajinder Singh Desujodha | INC Shishpal Singh | INLD Gurtej Singh Sukhchain | JJP Gurjant Tigri
+43 Dabwali | BJP Baldev Singh Mangiana | INC Amit Sihag | INLD Aditya Sihag Chautala | JJP Digvijay Chautala
+44 Rania | BJP Shishpal Kamboj | INC Sarva Mitra Kamboj | INLD Arjun Singh Chautala
+45 Sirsa | INC Gokul Setia | JJP Pawan Sherpura
+46 Ellenabad | BJP Amir Chand Mehta | INC Bharat Singh Beniwal | INLD Abhay Singh Chautala | JJP Anjani Ladha
+47 Adampur | BJP Bhavya Bishnoi | INC Chander Parkash | INLD Randeep | JJP Krishna Gangwa
+48 Uklana (SC) | BJP Anoop Dhanak | INC Naresh Selwal | INLD Balraj Sabhwal | JJP Rohtash Kandul
+49 Narnaund | BJP Captain Abhimanyu | INC Jassi Petwar | INLD Umed Lohan | JJP Yogesh Gautam
+50 Hansi | BJP Vinod Bhayana | INC Rahul Makkar | BSP Ravindra Kumar | JJP Shamsher Dhul
+51 Barwala | BJP Ranbir Singh Gangwa | INC Ram Niwas Ghorela | INLD Sanjana Gahlot | JJP Anantram
+52 Hisar | BJP Kamal Gupta | INC Ram Niwas Rara | INLD Shyam Lal | JJP Ravi Ahuja
+53 Nalwa | BJP Randhir Parihar | INC Anil Mann | BSP Sarwan Verma | JJP Virendra Chaudhary
+54 Loharu | BJP Jai Parkash Dalal | INC Rajbir Singh Fartiya | INLD Bhoop Singh | JJP Alka Arya
+55 Badhra | BJP Umed Patuwas | INC Somveer Sangwan | INLD Vijay Kumar | JJP Yashveer Singh Sheoran
+56 Dadri | BJP Sunil Sangwan | INC Manisha Sangwan | BSP Anand Singh | JJP Rajdeep Phogat
+57 Bhiwani | BJP Ghanshyam Saraf | CPI(M) Om Prakash | INLD Karambir Yadav
+58 Tosham | BJP Shruti Choudhry | INC Anirudh Chaudhry | BSP Om Singh | JJP Rajesh Bhardwaj
+59 Bawani Khera (SC) | BJP Kapur Valmiki | INC Pradeep Narwal | BSP Sandeep Singh | JJP Guddi Langyan
+60 Meham | BJP Deepak Niwas Hooda | INC Balram Dangi | BSP Hawa Singh
+61 Garhi Sampla-Kiloi | BJP Manju Hooda | INC Bhupinder Singh Hooda | INLD Krishan | JJP Sushila Deshwal
+62 Rohtak | BJP Manish Grover | INC Bharat Bhushan Batra | INLD Dillour | JJP Jitendra Balhara
+63 Kalanaur (SC) | BJP Renu Dabla | INC Shakuntla Khatak | BSP Poonam | JJP Mahendra Sudana
+64 Bahadurgarh | BJP Dinesh Kaushik | INC Rajinder Singh Joon | INLD Sheela Rathi
+65 Badli | BJP Om Prakash Dhankhar | INC Kuldeep Vats | JJP Krishna Silana
+66 Jhajjar (SC) | BJP Kaptan Birdhana | INC Geeta Bhukkal | BSP Dharambir Singh | JJP Naseeb Valmiki
+67 Beri | BJP Sanjay Kablana | INC Raghuvir Singh Kadian | INLD Permod | JJP Sunil Dujana
+68 Ateli | BJP Arti Singh Rao | INC Anita Yadav | BSP Thakur Attar Lal | JJP Ayushi Abhimanyu Rao
+69 Mahendragarh | BJP Kanwar Singh Yadav | INC Rao Dan Singh | INLD Surender Kaushik | ASP(KR) Shashi Kumar
+70 Narnaul | BJP Om Parkash Yadav | INC Rao Narinder Singh | INLD Nar Singh | JJP Suresh Saini
+71 Nangal Chaudhry | BJP Abhe Singh Yadav | INC Manju Choudhary | JJP Om Prakash
+72 Bawal (SC) | BJP Krishna Kumar | INC M L Ranga | INLD Sampat Ram
+73 Kosli | BJP Anil Dahina | INC Jagdish Yadav | BSP Raj Kumar | JJP Lavinder Singh Yadav
+74 Rewari | BJP Laxman Singh Yadav | INC Chiranjeev Rao | BSP Somany Vijay | ASP(KR) Moki Yadav
+75 Pataudi (SC) | BJP Bimla Chaudhary | INC Pearl Chaudhary | INLD Pawan Kumar | JJP Amar Nath
+76 Badshahpur | BJP Rao Narbir Singh | INC Vardhan Yadav | BSP Joginder Singh | JJP Surendra Kumar
+77 Gurgaon | BJP Mukesh Sharma | INC Mohit Grover | INLD Gaurav Bhatia | JJP Ashok Jangra
+78 Sohna | BJP Tejpal Tanwar | INC Rohtash Khatana | BSP Surender Bhadana | ASP(KR) Vinesh Gurjar
+79 Nuh | BJP Sanjay Singh | INC Aftab Ahmed | INLD Tahir Hussain | JJP Birender Singh Gangoli
+80 Ferozepur Jhirka | BJP Naseem Ahmed | INC Mamman Khan | INLD Mohd Habir | JJP Jan Mohammad
+81 Punahana | BJP Aizaz Khan | INC Mohammad Ilyas | INLD Dayawati | ASP(KR) Ataullah
+82 Hathin | BJP Manoj Rawat | INC Mohd Israil | INLD Taiyab Hussain Bhimsika | JJP Ravindra Sehrawat
+83 Hodal (SC) | BJP Harinder Singh | INC Udai Bhan | INLD Sunil Kumar | JJP Satveer Tanwar
+84 Palwal | BJP Gaurav Gautam | INC Karan Dalal | BSP Abhisek Deshwal | ASP(KR) Harit Bainsla
+85 Prithla | BJP Tek Chand Sharma | INC Raghubir Tewatia | BSP Surender Basistha | ASP(KR) Giriraj Panghal
+86 Faridabad NIT | BJP Satish Fagna | INC Neeraj Sharma | INLD Nagender Bhadana | JJP Haji Kamarat Ali
+87 Badkhal | BJP Dhanesh Adlakha | INC Vijay Pratap | BSP Manoj | JJP Parvinder Singh
+88 Ballabgarh | BJP Mool Chand Sharma | INC Parag Sharma
+89 Faridabad | BJP Vipul Goel | INC Lakhan Kumar Singla | INLD NP Singh Baghel
+90 Tigaon | BJP Rajesh Nagar | INC Rohit Nagar | BSP Lal Chand Sharma | JJP Teeka Ram Bhardwaj
