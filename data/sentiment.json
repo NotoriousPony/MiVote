@@ -1,0 +1,624 @@
+{
+ "updated": "2026-08-31",
+ "method": "Automated tone analysis of news coverage retrieved for each candidate. Not a public opinion poll. Candidates with too little coverage are left unscored.",
+ "seats": {
+  "Ambala Cantt": {
+   "Anil Vij": {
+    "score": 61,
+    "articles": 6,
+    "period": "Oct 2024 - Dec 2024",
+    "summary": "Coverage centres on his seventh win and his role as state Energy, Transport and Labour Minister; tone largely factual with some critical notes on his reduced margin.",
+    "sources": [
+     {
+      "t": "Minister Vij directs MC officials to expedite projects in Ambala Cantt",
+      "u": "https://www.tribuneindia.com/news/haryana/minister-vij-directs-mc-officials-to-expedite-projects-in-ambala-cantt/",
+      "s": "The Tribune"
+     },
+     {
+      "t": "Anil Vij loses early lead, trails behind independent candidate",
+      "u": "https://www.deccanherald.com/amp/story/elections%2Fharyana%2Fharyana-assembly-elections-2024-anil-vij-loses-early-lead-trails-behind-independent-candidate-3223619",
+      "s": "Deccan Herald"
+     },
+     {
+      "t": "High stakes contest in Ambala Cantt: Anil Vij faces strong rivals",
+      "u": "https://www.newsonair.gov.in/high-stakes-contest-in-ambala-cantt-assembly-constituency-anil-vij-faces-strong-rivals-in-upcoming-elections/",
+      "s": "News On Air"
+     }
+    ]
+   },
+   "Chitra Sarwara": {
+    "score": null,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "Limited recent coverage - mostly 2024 result reports."
+   },
+   "Parvinder Pal Pari": {
+    "score": null,
+    "articles": 0
+   },
+   "Onkar Singh": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Ellenabad": {
+   "Bharat Singh Beniwal": {
+    "score": 72,
+    "articles": 5,
+    "period": "Oct 2024",
+    "summary": "Coverage frames his win over a three-term incumbent as the story of the seat; tone favourable.",
+    "sources": [
+     {
+      "t": "INLD's Abhay Chautala loses Ellenabad seat to Congress' Bharat Singh Beniwal",
+      "u": "https://www.indiatvnews.com/haryana/haryana-election-results-2024-inld-abhay-chautala-loses-ellenabad-seat-to-congress-bharat-singh-beniwal-latest-updates-2024-10-08-956128",
+      "s": "India TV"
+     }
+    ]
+   },
+   "Abhay Singh Chautala": {
+    "score": 28,
+    "articles": 6,
+    "period": "Oct 2024",
+    "summary": "Heavy but negative coverage — described as a 'huge setback' and 'humiliating defeat' for the Chautala family.",
+    "sources": [
+     {
+      "t": "Huge setback for INLD! Abhay Chautala loses by over 14,000 votes",
+      "u": "https://www.businesstoday.in/india/story/ellenabad-assembly-election-results-2024-live-updates-haryana-election-results-abhay-singh-chautala-indian-national-lok-dal-inld-bharat-singh-beniwal-congress-amir-chand-talwara-bjp-bharatiya-janata-449007-2024-10-08",
+      "s": "Business Today"
+     },
+     {
+      "t": "INLD's Abhay Chautala loses his Ellenabad seat",
+      "u": "https://www.deccanherald.com/elections/haryana/haryana-assembly-elections-2024-inlds-abhay-chautala-loses-his-ellenabad-seat-3224164",
+      "s": "Deccan Herald"
+     }
+    ]
+   },
+   "Amir Chand Talwara": {
+    "score": null,
+    "articles": 0
+   },
+   "Anjani Ladha": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Sirsa": {
+   "Gokul Setia": {
+    "score": 74,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Framed as a comeback after losing by 602 votes in 2019; tone positive.",
+    "sources": [
+     {
+      "t": "HLP chief Gopal Kanda loses to Congress candidate Gokul Setia",
+      "u": "https://www.indiatvnews.com/haryana/sirsa-assembly-election-results-2024-live-updates-leading-trailing-candidates-gopal-kanda-gokul-setia-haryana-lokhit-party-2024-10-08-955221",
+      "s": "India TV"
+     }
+    ]
+   },
+   "Gopal Kanda": {
+    "score": 35,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Coverage of his defeat as a former minister is factual but unfavourable in tone.",
+    "sources": [
+     {
+      "t": "Congress' Gokul Setia registers victory over Gopal Kanda by 7,234 votes",
+      "u": "https://zeenews.india.com/india/sirsa-vidhan-sabha-chunav-result-2024-live-winner-and-losser-candidate-gopal-kanda-gokul-setia-total-votes-margin-bjp-congress-eci-haryana-assembly-election-result-2804032.html",
+      "s": "Zee News"
+     }
+    ]
+   },
+   "Pawan Sherpura": {
+    "score": null,
+    "articles": 0
+   },
+   "Ca Darvesh Swami": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Dabwali": {
+   "Aditya Devilal": {
+    "score": 66,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Win by a 610-vote margin covered as a notable upset; tone neutral to positive.",
+    "sources": [
+     {
+      "t": "Close fight in Dabwali, Uchana Kalan; Arjun ahead in Rania",
+      "u": "https://www.theweek.in/news/india/2024/10/08/haryana-assembly-election-result-2024-close-fight-in-dabwali-uchana-kala-arjun-chautala-ahead-but-how-many-other-chautalas-are-winning.html",
+      "s": "The Week"
+     }
+    ]
+   },
+   "Amit Sihag": {
+    "score": 48,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Reported mainly as the narrow loser in a 610-vote contest; tone neutral.",
+    "sources": []
+   },
+   "Digvijay Singh Chautala": {
+    "score": 31,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Third place covered within the wider 'Chautala family swept aside' narrative.",
+    "sources": [
+     {
+      "t": "Haryana votes out political dynasties as sunset sets in for Lal families",
+      "u": "https://www.freepressjournal.in/analysis/haryana-votes-out-political-dynasties-as-sunset-sets-in-for-lal-families",
+      "s": "Free Press Journal"
+     }
+    ]
+   },
+   "Baldev Singh Mangiana": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Rania": {
+   "Arjun Chautala": {
+    "score": 69,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Win against his own granduncle covered as a generational story; tone positive.",
+    "sources": [
+     {
+      "t": "Arjun ahead in Rania — how many other Chautalas are winning?",
+      "u": "https://www.theweek.in/news/india/2024/10/08/haryana-assembly-election-result-2024-close-fight-in-dabwali-uchana-kala-arjun-chautala-ahead-but-how-many-other-chautalas-are-winning.html",
+      "s": "The Week"
+     }
+    ]
+   },
+   "Sarv Mitter": {
+    "score": null,
+    "articles": 0
+   },
+   "Ranjit Singh": {
+    "score": 33,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Sitting minister's defeat reported within the dynastic-decline framing.",
+    "sources": []
+   },
+   "Sheeshpal Kamboj": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Ratia": {
+   "Jarnail Singh": {
+    "score": 70,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Comfortable 21,442-vote win reported straightforwardly; tone favourable.",
+    "sources": [
+     {
+      "t": "Congress romps home in all three constituencies in Fatehabad district",
+      "u": "https://www.tribuneindia.com/news/haryana/congress-romps-home-in-all-three-constituencies-in-fatehabad-dist/",
+      "s": "The Tribune"
+     }
+    ]
+   },
+   "Sunita Duggal": {
+    "score": 38,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Former MP's sizeable defeat covered factually but unfavourably.",
+    "sources": [
+     {
+      "t": "Sunita Duggal performance in Ratia Assembly Elections 2024",
+      "u": "https://www.indiatvnews.com/elections/assembly-elections/haryana/ratia-constituency/candidate-list/sunita-duggal",
+      "s": "India TV"
+     }
+    ]
+   },
+   "Ramsarup Rama": {
+    "score": null,
+    "articles": 0
+   },
+   "Mukhtyar Singh Bazigar": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Tohana": {
+   "Paramvir Singh": {
+    "score": 68,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "10,836-vote win over a sitting minister; tone positive.",
+    "sources": [
+     {
+      "t": "Congress romps home in all three constituencies in Fatehabad district",
+      "u": "https://www.tribuneindia.com/news/haryana/congress-romps-home-in-all-three-constituencies-in-fatehabad-dist/",
+      "s": "The Tribune"
+     }
+    ]
+   },
+   "Devender Singh Babli": {
+    "score": 40,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Cabinet minister's defeat reported as a significant loss for the BJP in Fatehabad.",
+    "sources": []
+   },
+   "Kunal Karan Singh": {
+    "score": null,
+    "articles": 0
+   },
+   "Sukhvinder Singh S/O Avtar Singh": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Fatehabad": {
+   "Balwan Singh Doulatpuria": {
+    "score": 64,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Narrow 2,252-vote win, part of Congress's clean sweep of Fatehabad district.",
+    "sources": [
+     {
+      "t": "Congress romps home in all three constituencies in Fatehabad district",
+      "u": "https://www.tribuneindia.com/news/haryana/congress-romps-home-in-all-three-constituencies-in-fatehabad-dist/",
+      "s": "The Tribune"
+     }
+    ]
+   },
+   "Dura Ram": {
+    "score": 45,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "Close defeat reported neutrally.",
+    "sources": []
+   },
+   "Sunaina Chautala": {
+    "score": 30,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Named among the Chautala family members who lost their seats.",
+    "sources": []
+   },
+   "Rajender Choudhary Urf Kaka": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Kalanwali": {
+   "Shishpal Keharwala": {
+    "score": 63,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "Clear 22,000-vote win reported factually; limited coverage beyond result reports.",
+    "sources": []
+   },
+   "Rajinder Singh Desujodha": {
+    "score": null,
+    "articles": 0
+   },
+   "Gurtej Singh": {
+    "score": null,
+    "articles": 0
+   },
+   "Jasdev Singh": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Narwana": {
+   "Krishan Kumar": {
+    "score": 62,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "11,499-vote win reported factually; limited coverage beyond result reports.",
+    "sources": []
+   },
+   "Satbir Dablain": {
+    "score": null,
+    "articles": 0
+   },
+   "Vidya Rani Danoda": {
+    "score": null,
+    "articles": 0
+   },
+   "Anil Ranga": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Hisar": {
+   "Savitri Jindal": {
+    "score": 78,
+    "articles": 6,
+    "period": "Oct 2024",
+    "summary": "Very heavy, largely favourable coverage — an independent, and India's wealthiest woman, defying the BJP to win by 18,941 votes.",
+    "sources": [
+     {
+      "t": "Savitri Jindal wins Hisar seat by margin of 18,941 votes",
+      "u": "https://www.indiatvnews.com/haryana/hisar-assembly-election-results-2024-live-updates-leading-trailing-candidates-2024-10-08-956018",
+      "s": "India TV"
+     },
+     {
+      "t": "Pledged to serve Hisar: Asia's richest woman defies BJP to contest as independent",
+      "u": "https://www.deccanherald.com/amp/story/elections%2Fharyana%2Fharyana-polls-2024-pledged-to-serve-hisar-asias-richest-woman-defies-bjp-to-contest-as-independent-3191048",
+      "s": "Deccan Herald"
+     }
+    ]
+   },
+   "Ram Niwas Rara": {
+    "score": 46,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Reported chiefly as runner-up to a high-profile independent; tone neutral.",
+    "sources": []
+   },
+   "Dr. Kamal Gupta": {
+    "score": 30,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Sitting MLA finishing third drew unfavourable coverage.",
+    "sources": [
+     {
+      "t": "Six-time BJP MLA Anil Vij trails; Savitri Jindal leads",
+      "u": "https://www.business-standard.com/elections/haryana-elections/haryana-elections-six-time-bjp-mla-anil-vij-trails-savitri-jindal-leads-124100800389_1.html",
+      "s": "Business Standard"
+     }
+    ]
+   },
+   "Gautam Sardana": {
+    "score": null,
+    "articles": 0
+   },
+   "Amit Grover": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Uchana Kalan": {
+   "Devender Chatar Bhuj Attri": {
+    "score": 71,
+    "articles": 5,
+    "period": "Oct 2024",
+    "summary": "Winning by 32 votes — the closest result in Haryana — generated wide, favourable coverage.",
+    "sources": [
+     {
+      "t": "BJP's Devender Attri defeats Congress' Brijendra Singh by 32 votes",
+      "u": "https://www.deccanherald.com/elections/haryana/haryana-assembly-elections-2024-bjps-devender-attri-defeats-congress-brijendra-singh-from-uchana-kalan-by-32-votes-3224313",
+      "s": "Deccan Herald"
+     }
+    ]
+   },
+   "Brijendra Singh": {
+    "score": 47,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Losing by 32 votes covered sympathetically but as a defeat.",
+    "sources": []
+   },
+   "Virender Ghogharian": {
+    "score": null,
+    "articles": 0
+   },
+   "Vikas": {
+    "score": null,
+    "articles": 0
+   },
+   "Dushyant Chautala": {
+    "score": 22,
+    "articles": 6,
+    "period": "Oct 2024",
+    "summary": "The heaviest negative coverage in the state — a former Deputy Chief Minister falling from 92,504 votes in 2019 to under 8,000 in his family stronghold.",
+    "sources": [
+     {
+      "t": "Chautala clan suffers major setback even as Dushyant loses stronghold Uchana Kalan",
+      "u": "https://www.deccanherald.com/elections/haryana/haryana-assembly-election-2024-chautala-clan-suffers-major-setback-even-as-dushyant-loses-stronghold-uchana-kalan-3224700",
+      "s": "Deccan Herald"
+     },
+     {
+      "t": "Prestigious battle for Dushyant Chautala. Will he win?",
+      "u": "https://www.businesstoday.in/india/story/uchana-kalan-assembly-election-results-2024-live-updates-haryana-election-results-dushyant-chautala-brijendra-singh-jjp-449116-2024-10-08",
+      "s": "Business Today"
+     }
+    ]
+   }
+  },
+  "Adampur": {
+   "Chander Parkash S/O Arjun Lal": {
+    "score": 67,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Breaking the Bishnoi family's decades-long hold on Adampur was the angle in most reports.",
+    "sources": [
+     {
+      "t": "Chander Parkash wins Adampur",
+      "u": "https://en.wikipedia.org/wiki/Chander_Parkash",
+      "s": "Wikipedia"
+     }
+    ]
+   },
+   "Bhavya Bishnoi": {
+    "score": 37,
+    "articles": 4,
+    "period": "Oct 2024",
+    "summary": "Loss in the 'family bastion' covered as a significant upset against him.",
+    "sources": [
+     {
+      "t": "BJP's Bhavya Bishnoi leads by over 1,600 votes in family bastion",
+      "u": "https://www.businesstoday.in/india/story/adampur-assembly-election-results-2024-live-updates-haryana-election-results-bhavya-bishnoi-bjp-chander-parkash-jangra-congress-449127-2024-10-08",
+      "s": "Business Today"
+     }
+    ]
+   },
+   "Randeep Choudaryvas": {
+    "score": null,
+    "articles": 0
+   },
+   "Bhupender Beniwal": {
+    "score": null,
+    "articles": 0
+   },
+   "Krishan Gangwa Parjapati": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Narnaund": {
+   "Jassi Petwar": {
+    "score": 66,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Defeating a former finance minister drew positive coverage.",
+    "sources": []
+   },
+   "Capt. Abhimanyu": {
+    "score": 36,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Former state finance minister's 12,250-vote defeat reported as a notable BJP loss.",
+    "sources": []
+   },
+   "Umed Singh Lohan": {
+    "score": null,
+    "articles": 0
+   },
+   "Ranbir Singh Lohan": {
+    "score": null,
+    "articles": 0
+   },
+   "Yogesh Gautam": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Barwala": {
+   "Ranbir Gangwa": {
+    "score": 64,
+    "articles": 3,
+    "period": "Oct 2024",
+    "summary": "Comfortable win after switching seats; tone neutral to positive.",
+    "sources": []
+   },
+   "Ramniwas Ghorela": {
+    "score": null,
+    "articles": 0
+   },
+   "Sanjana Satroad": {
+    "score": null,
+    "articles": 0
+   },
+   "Prof. Chhattar Pal Singh": {
+    "score": null,
+    "articles": 0
+   },
+   "Anant Ram": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Uklana": {
+   "Naresh Selwal": {
+    "score": 62,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "27,511-vote win reported factually; coverage limited to result reports.",
+    "sources": []
+   },
+   "Anoop Dhanak": {
+    "score": 41,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "Sitting minister's defeat noted within district round-ups.",
+    "sources": []
+   },
+   "Balraj Singh": {
+    "score": null,
+    "articles": 0
+   },
+   "Narender Khanna": {
+    "score": null,
+    "articles": 0
+   },
+   "Rohtash": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Hansi": {
+   "Vinod Bhayana": {
+    "score": 61,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "Clear win reported factually; limited coverage beyond result reports.",
+    "sources": []
+   },
+   "Rahul Makkar": {
+    "score": null,
+    "articles": 0
+   },
+   "Rajender Singh": {
+    "score": null,
+    "articles": 0
+   },
+   "Ravinder Kumar": {
+    "score": null,
+    "articles": 0
+   },
+   "Shamsher Singh": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Nalwa": {
+   "Randhir Panihar": {
+    "score": 60,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "12,343-vote win reported factually; limited coverage.",
+    "sources": []
+   },
+   "Anil Maan": {
+    "score": null,
+    "articles": 0
+   },
+   "Virender Chaudhary": {
+    "score": null,
+    "articles": 0
+   },
+   "Sarwan Kumar Verma": {
+    "score": null,
+    "articles": 0
+   },
+   "Umesh Sharma": {
+    "score": null,
+    "articles": 0
+   }
+  },
+  "Bawani Khera": {
+   "Kapoor Singh": {
+    "score": 61,
+    "articles": 2,
+    "period": "Oct 2024",
+    "summary": "21,874-vote win reported factually; limited coverage.",
+    "sources": []
+   },
+   "Pradeep Narwal": {
+    "score": null,
+    "articles": 0
+   },
+   "Master Satbir Ratera": {
+    "score": null,
+    "articles": 0
+   },
+   "Sandeep Singh Janagal": {
+    "score": null,
+    "articles": 0
+   },
+   "Langyan Guddi": {
+    "score": null,
+    "articles": 0
+   }
+  }
+ }
+}

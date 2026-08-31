@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAG1ElEQVR42u2Ze1BU9xXHv+fefZFdFFYQfAHDutRVUGvwMVVHKvgIRgcxjyb1WczYZGwzTdIm0zq2jWltMulopx0mJpPUIU2DokbFBAhIRHdAjRB5ZRdYWOQh8l7F3WV3772//rGyLAmYTjuZ1sz9/XPv3t+553c+v3N+v3P2/kiSJDzIjftWtdODDsAedADIADKADCADyAAygAwgA8gAMoAMIAPIADLAdxeACET/QwDF+DYFGmP36wXgcULwQKsPfsrGvkVBbzHGvmUAIjRdZA3nieeweBsi4scwEMF2EdbzjOdo+R6A2JENGOqlnf+8NT3p7S8+kETfwqh5GcbUYEMFJr11/Xifs3fGpGlZSVtogs9F9B9BjueBphI6fQA8MNCMH+eMsd7jZHk/JbuFeCBxI9x30FRJIsharItd8v6X+bbO2vjoxLVxP3hIGeK3g4hqexp/VvIHuG4/v3IvR9y49jEwc0eVw+0w6uPn6OPYf7UGOCVUgAaozEPbtTEx8/n71G5BCKAiSAJiFyNlF5LTWfJWHa/MSsqEIsQ+0Gbu+CJY38nGEvg8al3kT5I2ByabiAKuICLG2HMlr236cMfRuo8Q1DUqPMFKm2ARM4AR3MMoPjg6/S4HPnsT/IiMJEGtpaffw7MfY+psAI8nrAvVhjPRm2stCIw9LHhO20ohseUzFyVGzPY/dPuGnV4XCAEMxpiCU4BXEXF+hwRMlyRpyOMUJGFcDO5+24sCqM1Hs/meEyreQVczuJEVyfFwOVj2GvbnpWi9AsAQNis1dhnAPrFd6nUN+Ae7fLPa0mcDx2+fu5Ej7uqt2qfOvrTg6Jak9zan5+3Jb74Agv12x8rcnY0DN0ilzanPT8557HcV2X7ONz//+9J/PGV6d1NyzpOvlmff9bq+wjCxB/QxLDYZbh9KDgLAUA/K/gICm7MOyhAwBiKIXrKXU9NVuAf9Ubt93iYolN13uwpbzH5Nxxo+lbzuaeEzMxJSi1sr1nyYlVt90jbY3unqK2gqyTi190h1HmOsuqfBJQyDuFvO/qqbdW2Omz5J2Frwm18WHajps+nU2obBtt+WvpFVtF+QhH8PQK3Duv3QKFBfhGYzK38b3Z2IMiDlBSYKozskrwKPwHfotNhlhoh4SGKutRCAwzP0cctFAJsNq7XKkF+UvnHH2b/auLpy+7HaXad2J2+TJOHlC4d8olC944QpIp55nM8kZlqfKfzTqhdyrQWnas8Yo+ZW7zhhzTpbs/OEIcp0vO6cuaMq2Anj5gEAgHeYTOvZwky6fJwdfxZ3ewEg7RXSx0AU/CE6Kk/34jhUpX0iYe3B7say9srOO93Xur9sH2zjlSG75mfU9DbU99k0msmHU19JijQCOJTyq5LWy609TZc6q3bP36LhVGBipDY8YUocgDO2CyCEaULzGot8ok/BKbQaLcThips1KTFL7gvARi5EtG4f6s9RRx0kIH4BlmxDtwU0Yrz/ho3Jd0+b0g9V5jhdAycbi6/1WODzLopb9HDU3EK7GaJXpwmfro30q9epHpoeGtnaY+11DQBgTAKDxO4duDg8Q+CV9X0tlkE7YxJAGl49RRfNEfdNeSAwr6IH05PY0p1UnA0eWLsPCjUkCRjZ5RgYG5uWGJs3ZfaqmMVF1tLDVR8M+VzgFVvnbSCimEnTVGrtoHugoqv6UcMqEJodbQ0DdpBydlgsAEYAjR4pGMJmnBeGVxtTc9L/yBMH0JDXqSBOp9YGZ5KJQyjwK+1ldNVBH4f5GUFpZ6SXjakvGEBE200bixov2B0dYCxcN3WzMRXAHH38+rjlZy3n9nz6+xeTd+jU2uzqY/23u4xTTWlxywBEhuhB/OnG0mit3hAeuzsx82jNRwVNZa+aszcYU/rdjiPXjy2bsfDA8r3f5AFJgA8Qhu9ZGR6Dn5cFzbEEQYIIMBFgENzwAZIYrOCRuBXRk6fdGmiHJKwxrZ8VGs0Y4znur2m/7nMNlt+oeLFwP4gAio9IOJr+WrhmEoDnFj556cZVS3fd82ev/NC0ofRH7/4tdd9Lpa8frsg+fOUdSCLAhap0HtEbSPMA6GuHfIT2Sma/StrJ+P7j4BRBTmEAwdmL6lOMMVqwBWotq8qF10NJjyJsZnDuLGwxtzjaAZYSu3Su3hBITE6v+0zT+ctdNT5JnB9hzPzemijtlEDRUd55/ZPmMpcwvGLGw5kJaSBY+lvybZ+1ODp1ypCVs5LT41coeWVwCNE4p5SBTWrcompMrRoUb1+pQIPExoz3tVQ6UW+A6j7yEwDI/8hkABlABpABZAAZQAaQAWQAGUAGkAFkABlABpABZID/+/YvAzj1pDZL4ycAAAAASUVORK5CYII=">
+<title>MiVote — Haryana 2024</title>
+<style>
+:root{
+  --bg:#f5f6fa; --card:#ffffff; --line:#eceef3; --line2:#e2e5ec;
+  --tx:#1d2433; --tx2:#5f6b81; --tx3:#98a2b3;
+  --acc:#5b5bd6; --accbg:#eeeefb; --gn:#12915f; --gnbg:#e7f6ef; --am:#b98407; --ambg:#fdf4dd;
+  --shadow:0 1px 2px rgba(16,24,40,.05), 0 1px 6px rgba(16,24,40,.05);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font:14px/1.5 -apple-system,"Segoe UI",Roboto,"Inter",sans-serif}
+.num{font-variant-numeric:tabular-nums}
+#app{max-width:1080px;margin:0 auto;padding:0 16px 70px}
+header{background:var(--card);border:1px solid var(--line);border-radius:0 0 20px 20px;box-shadow:var(--shadow);padding:16px 20px;margin-bottom:16px}
+.brand{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo .mark{width:34px;height:34px;border-radius:11px;background:var(--acc);display:flex;align-items:center;justify-content:center}
+.logo .mark svg{width:19px;height:19px;stroke:#fff}
+.logo h1{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.logo h1 span{color:var(--tx3);font-weight:500;font-size:13px;margin-left:6px}
+.verified{display:inline-flex;align-items:center;gap:6px;background:var(--gnbg);color:var(--gn);border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600}
+.selrow{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.sel{background:var(--bg);border:1px solid var(--line2);border-radius:999px;padding:6px 14px;font-size:12.5px;color:var(--tx2)}
+.sel b{color:var(--tx);font-weight:600;margin-left:5px}
+.sel .lock{color:var(--tx3);font-size:11px;margin-left:5px}
+.crumb{font-size:12.5px;color:var(--tx3);margin:14px 4px 12px}
+.crumb a{color:var(--acc);text-decoration:none;cursor:pointer;font-weight:600}
+.crumb a:hover{text-decoration:underline}
+.grid{display:grid;gap:12px}
+.g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:780px){.g4{grid-template-columns:1fr 1fr}.g2,.g3{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:16px}
+.card h3{font-size:14px;font-weight:700;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.card h3 .sub{color:var(--tx3);font-weight:500;font-size:12px}
+.statc{display:flex;align-items:center;gap:12px}
+.statc .ic{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:none}
+.statc .ic svg{width:20px;height:20px}
+.statc .v{font-size:20px;font-weight:700;letter-spacing:-.01em}
+.statc .l{font-size:12px;color:var(--tx2)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--tx3);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line2);font-weight:600}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+tbody tr:last-child td{border-bottom:none}
+tr.click{cursor:pointer} tr.click:hover td{background:#fafaff}
+.r{text-align:right}
+.bar{height:8px;background:#eef0f5;border-radius:999px;position:relative;min-width:60px;overflow:hidden}
+.bar i{position:absolute;inset:0 auto 0 0;display:block;border-radius:999px}
+.chip{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 10px;border-radius:999px}
+.win{display:inline-flex;align-items:center;gap:4px;background:var(--gnbg);color:var(--gn);border-radius:999px;padding:2px 9px;font-size:11px;font-weight:700;margin-left:6px}
+.searchbox{width:100%;background:var(--bg);border:1px solid var(--line2);border-radius:12px;color:var(--tx);padding:9px 14px;font-size:13.5px;margin-bottom:10px}
+.searchbox:focus{outline:2px solid var(--accbg);border-color:var(--acc)}
+.othersrow td{background:var(--ambg);cursor:pointer}
+.othersrow td:first-child{border-radius:12px 0 0 12px}
+.othersrow td:last-child{border-radius:0 12px 12px 0}
+.othersrow .lbl{color:var(--am);font-weight:700}
+.note{border:1px solid #f2d492;background:var(--ambg);color:var(--am);padding:12px 14px;font-size:13px;margin-top:12px;border-radius:12px}
+.footnote{font-size:11.5px;color:var(--tx3);margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+/* log in / create account switch on the auth screen */
+.segbar{display:flex;gap:4px;background:var(--bg);border:1px solid var(--line2);border-radius:12px;padding:4px;margin-bottom:16px}
+.seg{flex:1;border:none;background:none;padding:8px 10px;border-radius:9px;font-size:13px;font-weight:600;color:var(--tx2);cursor:pointer;font-family:inherit}
+.seg.on{background:var(--card);color:var(--tx);box-shadow:var(--shadow)}
+.btn{background:var(--acc);border:none;color:#fff;padding:9px 18px;font-size:13px;font-weight:600;cursor:pointer;border-radius:999px}
+.btn:hover{opacity:.9}
+.btn.ghost{background:var(--accbg);color:var(--acc)}
+select{background:var(--bg);border:1px solid var(--line2);border-radius:10px;color:var(--tx);padding:8px 10px;font-size:13px;max-width:100%}
+.insight{border-radius:12px;padding:10px 13px;margin-bottom:8px;font-size:13px;color:var(--tx2);background:var(--accbg)}
+.insight b{color:var(--tx)}
+.vbars{display:flex;align-items:stretch;gap:8px;height:150px;padding-top:6px}
+.vbars .vb{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:5px;min-width:0;overflow:hidden}
+.vbars .vb i{display:block;width:100%;border-radius:8px 8px 4px 4px}
+.vbars .vb span{font-size:9.5px;color:var(--tx3);white-space:nowrap;overflow:hidden;max-width:100%;text-overflow:ellipsis}
+.vbars .vb em{font-style:normal;font-size:10.5px;color:var(--tx2);font-weight:600}
+.mt{margin-top:12px}.mb{margin-bottom:12px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:999px;margin-right:6px}
+.legend{font-size:12px;color:var(--tx2);margin-top:10px}
+.pill-ok{display:inline-block;background:var(--gnbg);color:var(--gn);border-radius:999px;padding:2px 10px;font-size:11.5px;font-weight:600}
+.pill-warn{display:inline-block;background:var(--ambg);color:var(--am);border-radius:999px;padding:2px 10px;font-size:11.5px;font-weight:600}
+.demo{color:var(--acc);font-size:11px;font-weight:700}
+a.cand{color:var(--tx);cursor:pointer;font-weight:600;border-bottom:1.5px dotted var(--acc)}
+a.cand:hover{color:var(--acc)}
+.sortbtn{background:var(--bg);border:1px solid var(--line2);color:var(--tx2);padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;border-radius:999px}
+.fl{display:block;font-size:12.5px;font-weight:600;color:var(--tx2);margin:12px 0 5px}
+select{width:100%}
+.sortbtn.on{background:var(--accbg);border-color:var(--acc);color:var(--acc)}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="brand">
+    <div class="logo" onclick="landing()" style="cursor:pointer">
+      <h1 style="font-size:22px;font-weight:800;letter-spacing:-.02em"><span style="color:#f96806">Mi</span><span style="color:#007a1c">Vote</span></h1>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <div class="verified"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Verified against Form 20</div>
+      <span id="userbox" style="display:flex;align-items:center;gap:8px"></span>
+    </div>
+  </div>
+  <div class="selrow" id="navchips" style="display:none">
+    <div class="sel">State <b>Haryana</b></div>
+    <div class="sel">Election <b>Vidhan Sabha</b></div>
+    <div class="sel">Year <b>2024</b></div>
+    <div class="sel" style="cursor:pointer;color:var(--acc);font-weight:600" onclick="landing()">Change</div>
+  </div>
+</header>
+<div id="view"></div>
+</div>
+<script>
+const DATA = {};
+const DIR = [{"n":"Adampur","slug":"adampur","b":180,"v":57,"c":12,"s":"ok","w":"INC","ls":"Hisar"},{"n":"Ambala Cantt","slug":"ambala-cantt","b":214,"v":25,"c":11,"s":"ok","w":"BJP","ls":"Ambala"},{"n":"Ambala City","slug":"ambala-city","b":271,"v":87,"c":11,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Assandh","slug":"assandh","b":247,"v":88,"c":14,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Ateli","slug":"ateli","b":215,"v":92,"c":8,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Badhra","slug":"badhra","b":239,"v":103,"c":15,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Badkhal","slug":"badkhal","b":283,"v":11,"c":9,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Badli","slug":"badli","b":198,"v":89,"c":9,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Badshahpur","slug":"badshahpur","b":521,"v":72,"c":13,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Bahadurgarh","slug":"bahadurgarh","b":233,"v":25,"c":14,"s":"ok","w":"IND","ls":"Rohtak"},{"n":"Ballabgarh","slug":"ballabgarh","b":256,"v":14,"c":8,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Baroda","slug":"baroda","b":223,"v":59,"c":7,"s":"ok","w":"INC","ls":"Sonipat"},{"n":"Barwala","slug":"barwala","b":179,"v":55,"c":9,"s":"ok","w":"BJP","ls":"Hisar"},{"n":"Bawal","slug":"bawal","b":257,"v":151,"c":10,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Bawani Khera","slug":"bawani-khera","b":235,"v":54,"c":10,"s":"ok","w":"BJP","ls":"Hisar"},{"n":"Beri","slug":"beri","b":186,"v":53,"c":8,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Bhiwani","slug":"bhiwani","b":227,"v":32,"c":18,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Dabwali","slug":"dabwali","b":213,"v":83,"c":12,"s":"ok","w":"INLD","ls":"Sirsa","e":["ls2024","vs2019","ls2019"]},{"n":"Dadri","slug":"dadri","b":245,"v":73,"c":18,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Ellenabad","slug":"ellenabad","b":192,"v":80,"c":10,"s":"ok","w":"INC","ls":"Sirsa","e":["ls2024"]},{"n":"Faridabad","slug":"faridabad","b":249,"v":18,"c":8,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Faridabad NIT","slug":"faridabad-nit","b":288,"v":24,"c":13,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Fatehabad","slug":"fatehabad","b":244,"v":61,"c":18,"s":"ok","w":"INC","ls":"Sirsa","e":["ls2024"]},{"n":"Ferozepur Jhirka","slug":"ferozepur-jhirka","b":258,"v":131,"c":8,"s":"ok","w":"INC","ls":"Gurgaon"},{"n":"Ganaur","slug":"ganaur","b":223,"v":69,"c":11,"s":"ok","w":"IND","ls":"Sonipat"},{"n":"Garhi Sampla-Kiloi","slug":"garhi-sampla-kiloi","b":227,"v":58,"c":9,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Gharaunda","slug":"gharaunda","b":250,"v":106,"c":8,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Gohana","slug":"gohana","b":214,"v":60,"c":11,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Guhla","slug":"guhla","b":199,"v":98,"c":9,"s":"ok","w":"INC","ls":"Kurukshetra"},{"n":"Gurugram","slug":"gurugram","b":435,"v":70,"c":17,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Hansi","slug":"hansi","b":205,"v":47,"c":13,"s":"ok","w":"BJP","ls":"Hisar"},{"n":"Hathin","slug":"hathin","b":251,"v":113,"c":8,"s":"ok","w":"INC","ls":"Faridabad"},{"n":"Hisar","slug":"hisar","b":162,"v":18,"c":21,"s":"ok","w":"IND","ls":"Hisar"},{"n":"Hodal","slug":"hodal","b":200,"v":54,"c":12,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Indri","slug":"indri","b":220,"v":116,"c":6,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Israna","slug":"israna","b":199,"v":62,"c":7,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Jagadhri","slug":"jagadhri","b":243,"v":109,"c":11,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Jhajjar","slug":"jhajjar","b":190,"v":85,"c":11,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Jind","slug":"jind","b":192,"v":112,"c":13,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Julana","slug":"julana","b":200,"v":70,"c":12,"s":"ok","w":"INC","ls":"Sonipat"},{"n":"Kaithal","slug":"kaithal","b":215,"v":79,"c":12,"s":"ok","w":"INC","ls":"Kurukshetra"},{"n":"Kalanaur","slug":"kalanaur","b":207,"v":41,"c":13,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Kalanwali","slug":"kalanwali","b":187,"v":93,"c":5,"s":"ok","w":"INC","ls":"Sirsa","e":["ls2024"]},{"n":"Kalayat","slug":"kalayat","b":209,"v":87,"c":14,"s":"ok","w":"INC","ls":"Kurukshetra"},{"n":"Kalka","slug":"kalka","b":225,"v":122,"c":7,"s":"ok","w":"BJP","ls":"Ambala"},{"n":"Karnal","slug":"karnal","b":234,"v":80,"c":12,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Kharkhauda","slug":"kharkhauda","b":189,"v":53,"c":10,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Kosli","slug":"kosli","b":276,"v":128,"c":17,"s":"ok","w":"BJP","ls":"Rohtak"},{"n":"Ladwa","slug":"ladwa","b":217,"v":153,"c":16,"s":"ok","w":"BJP","ls":"Kurukshetra"},{"n":"Loharu","slug":"loharu","b":246,"v":92,"c":13,"s":"ok","w":"INC","ls":"Bhiwani-Mahendragarh"},{"n":"Mahendragarh","slug":"mahendragarh","b":220,"v":102,"c":13,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Meham","slug":"meham","b":217,"v":43,"c":19,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Mulana","slug":"mulana","b":264,"v":136,"c":10,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Nalwa","slug":"nalwa","b":182,"v":45,"c":13,"s":"ok","w":"BJP","ls":"Hisar"},{"n":"Nangal Chaudhary","slug":"nangal-chaudhary","b":182,"v":94,"c":5,"s":"ok","w":"INC","ls":"Bhiwani-Mahendragarh"},{"n":"Naraingarh","slug":"naraingarh","b":219,"v":138,"c":7,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Narnaul","slug":"narnaul","b":155,"v":51,"c":11,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Narnaund","slug":"narnaund","b":221,"v":56,"c":14,"s":"ok","w":"INC","ls":"Hisar"},{"n":"Narwana","slug":"narwana","b":225,"v":57,"c":10,"s":"ok","w":"BJP","ls":"Sirsa"},{"n":"Nilokheri","slug":"nilokheri","b":230,"v":88,"c":15,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Nuh","slug":"nuh","b":201,"v":94,"c":6,"s":"ok","w":"INC","ls":"Gurgaon"},{"n":"Palwal","slug":"palwal","b":266,"v":75,"c":13,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Panchkula","slug":"panchkula","b":230,"v":61,"c":10,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Panipat City","slug":"panipat-city","b":211,"v":163,"c":11,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Panipat Rural","slug":"panipat-rural","b":270,"v":44,"c":11,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Pataudi","slug":"pataudi","b":259,"v":111,"c":7,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Pehowa","slug":"pehowa","b":204,"v":89,"c":9,"s":"ok","w":"INC","ls":"Kurukshetra"},{"n":"Prithla","slug":"prithla","b":229,"v":87,"c":13,"s":"ok","w":"INC","ls":"Faridabad"},{"n":"Punahana","slug":"punahana","b":196,"v":77,"c":7,"s":"ok","w":"INC","ls":"Gurgaon"},{"n":"Pundri","slug":"pundri","b":184,"v":65,"c":18,"s":"ok","w":"BJP","ls":"Kurukshetra"},{"n":"Radaur","slug":"radaur","b":235,"v":125,"c":10,"s":"ok","w":"BJP","ls":"Kurukshetra"},{"n":"Rai","slug":"rai","b":218,"v":72,"c":14,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Rania","slug":"rania","b":188,"v":100,"c":14,"s":"ok","w":"INLD","ls":"Sirsa","e":["ls2024"]},{"n":"Ratia","slug":"ratia","b":231,"v":109,"c":10,"s":"ok","w":"INC","ls":"Sirsa","e":["ls2024"]},{"n":"Rewari","slug":"rewari","b":259,"v":85,"c":12,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Rohtak","slug":"rohtak","b":180,"v":31,"c":15,"s":"ok","w":"INC","ls":"Rohtak"},{"n":"Sadhaura","slug":"sadhaura","b":259,"v":159,"c":9,"s":"ok","w":"INC","ls":"Ambala"},{"n":"Safidon","slug":"safidon","b":196,"v":95,"c":17,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Samalkha","slug":"samalkha","b":232,"v":75,"c":7,"s":"ok","w":"BJP","ls":"Karnal"},{"n":"Shahbad","slug":"shahbad","b":null,"v":null,"c":9,"s":"ac_only","w":"INC","ls":"Kurukshetra"},{"n":"Sirsa","slug":"sirsa","b":216,"v":85,"c":13,"s":"ok","w":"INC","ls":"Sirsa","e":["ls2024"]},{"n":"Sohna","slug":"sohna","b":292,"v":111,"c":10,"s":"ok","w":"BJP","ls":"Gurgaon"},{"n":"Sonipat","slug":"sonipat","b":224,"v":134,"c":12,"s":"ok","w":"BJP","ls":"Sonipat"},{"n":"Thanesar","slug":"thanesar","b":204,"v":47,"c":9,"s":"ok","w":"INC","ls":"Kurukshetra"},{"n":"Tigaon","slug":"tigaon","b":345,"v":54,"c":13,"s":"ok","w":"BJP","ls":"Faridabad"},{"n":"Tohana","slug":"tohana","b":233,"v":93,"c":12,"s":"ok","w":"INC","ls":"Sirsa"},{"n":"Tosham","slug":"tosham","b":233,"v":101,"c":15,"s":"ok","w":"BJP","ls":"Bhiwani-Mahendragarh"},{"n":"Uchana Kalan","slug":"uchana-kalan","b":223,"v":64,"c":20,"s":"ok","w":"BJP","ls":"Hisar"},{"n":"Uklana","slug":"uklana","b":204,"v":57,"c":7,"s":"ok","w":"INC","ls":"Hisar"},{"n":"Yamunanagar","slug":"yamunanagar","b":242,"v":41,"c":10,"s":"ok","w":"BJP","ls":"Ambala"}];
+const SLUG = Object.fromEntries(DIR.map(a=>[a.n, a.slug]));
+async function getAC(ac){
+  if(DATA[ac]) return DATA[ac];
+  view.innerHTML = '<div class="card" style="text-align:center;color:var(--tx3);padding:40px">Loading '+ac+'…</div>';
+  try{
+    const r = await fetch('data/'+SLUG[ac]+'.json');
+    if(!r.ok) throw new Error(r.status);
+    DATA[ac] = await r.json();
+    return DATA[ac];
+  }catch(e){
+    view.innerHTML = '<div class="card" style="text-align:center;padding:40px"><p style="color:var(--tx2)">Could not load data for '+ac+'. Check your connection and retry.</p><p class="mt"><button class="btn" onclick="openAC(\''+ac+'\')">Retry</button> <button class="btn ghost" onclick="home()">Home</button></p></div>';
+    return null;
+  }
+}
+const PARTY = {
+  BJP:['#f0731f','#feefe3','#a34a08'], INC:['#3f83f8','#e8f0fe','#1a56b8'],
+  INLD:['#17a35f','#e5f6ee','#0c7042'], BSP:['#4a5fd0','#e9ecfb','#2f3f9e'],
+  JJP:['#8a9a1f','#f3f6df','#5c680f'], 'CPI(M)':['#d64545','#fdeaea','#9e2828'],
+  'AAP':['#2aa6b8','#e5f5f8','#186e7c'], 'ASP(KR)':['#7a6cc8','#efecfa','#4d3f9e']
+};
+const pc = p => (PARTY[p]||['#8b95a8','#eef0f4','#5a6474'])[0];
+const pbg = p => (PARTY[p]||['#8b95a8','#eef0f4','#5a6474'])[1];
+const ptx = p => (PARTY[p]||['#8b95a8','#eef0f4','#5a6474'])[2];
+const chipP = p => `<span class="chip" style="background:${pbg(p)};color:${ptx(p)}">${p}</span>`;
+const fmt = n => n.toLocaleString('en-IN');
+const view = document.getElementById('view');
+const SEATS=[['BJP',48],['INC',37],['IND',3],['INLD',2]];
+const VSHARE=[['BJP',40.1],['INC',39.0],['Others / IND',13.7],['INLD',4.0],['BSP',1.8],['JJP',0.9]];
+const IC = {
+  seat:'<path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/>',
+  vill:'<path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+  booth:'<rect x="3" y="8" width="18" height="13" rx="2"/><path d="M8 8V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3M12 12v4"/>',
+  votes:'<path d="M9 12l2 2 4-5M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18z"/>',
+  rank:'<path d="M8 21h8M12 21v-4M17 5H7v5a5 5 0 0 0 10 0V5zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/>',
+  person:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>',
+  nota:'<circle cx="12" cy="12" r="9"/><path d="M8 12h8"/>'
+};
+const icon = (name,color) => `<svg viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${IC[name]}</svg>`;
+const statCard = (ic, tintBg, tintFg, value, label) =>
+  `<div class="card statc"><div class="ic" style="background:${tintBg}">${icon(ic,tintFg)}</div>
+   <div><div class="v num">${value}</div><div class="l">${label}</div></div></div>`;
+
+
+function donut(parts, size, centerTop, centerSub){
+  const tot = parts.reduce((a,b)=>a+b.v,0) || 1;
+  const R = size/2, r = R*0.62;
+  let ang = -Math.PI/2, paths = '';
+  parts.forEach(p=>{
+    const frac = p.v/tot, a2 = ang + frac*Math.PI*2;
+    const big = frac > 0.5 ? 1 : 0;
+    const x1 = R+R*Math.cos(ang),   y1 = R+R*Math.sin(ang);
+    const x2 = R+R*Math.cos(a2),    y2 = R+R*Math.sin(a2);
+    const x3 = R+r*Math.cos(a2),    y3 = R+r*Math.sin(a2);
+    const x4 = R+r*Math.cos(ang),   y4 = R+r*Math.sin(ang);
+    if(frac > 0.999){
+      paths += `<circle cx="${R}" cy="${R}" r="${(R+r)/2}" fill="none" stroke="${p.c}" stroke-width="${R-r}"/>`;
+    } else if(frac > 0.0005){
+      paths += `<path d="M${x1} ${y1} A${R} ${R} 0 ${big} 1 ${x2} ${y2} L${x3} ${y3} A${r} ${r} 0 ${big} 0 ${x4} ${y4} Z" fill="${p.c}"/>`;
+    }
+    ang = a2;
+  });
+  return `<svg viewBox="0 0 ${size} ${size}" style="width:${size}px;height:${size}px;flex:none">${paths}
+    <text x="${R}" y="${R-2}" text-anchor="middle" style="font-size:${size*0.17}px;font-weight:700;fill:var(--tx)">${centerTop}</text>
+    <text x="${R}" y="${R+size*0.13}" text-anchor="middle" style="font-size:${size*0.085}px;fill:var(--tx3)">${centerSub}</text></svg>`;
+}
+
+function lineChart(series, labels, height){
+  // right margin holds the party name printed at the end of each line, so four
+  // or five lines can be told apart without matching colours to a legend
+  const W = 640, H = height || 250, L = 42, R = 104, T = 14, B = 34;
+  const iw = W - L - R, ih = H - T - B;
+  const vals = series.flatMap(s=>s.values).filter(v=>v!==null && v!==undefined);
+  const top = Math.max(20, Math.ceil((Math.max(...vals, 10) + 8) / 10) * 10);
+  const x = i => L + (labels.length === 1 ? iw/2 : i * iw / (labels.length - 1));
+  const y = v => T + ih - (v / top) * ih;
+  let g = '';
+  for(let v = 0; v <= top; v += top/4){
+    g += `<line x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}" stroke="#eceef3" stroke-width="1"/>
+          <text x="${L-8}" y="${y(v)+4}" text-anchor="end" style="font-size:10.5px;fill:#98a2b3">${v}%</text>`;
+  }
+  labels.forEach((lb,i)=>{
+    g += `<text x="${x(i)}" y="${H-12}" text-anchor="middle" style="font-size:10.5px;fill:${lb.on?'#5f6b81':'#c3c9d4'}">${lb.text}</text>`;
+    if(!lb.on) g += `<rect x="${x(i)-26}" y="${T}" width="52" height="${ih}" fill="#f7f8fb" opacity=".7"/>`;
+  });
+  series.forEach(sr=>{
+    let d = '', started = false;
+    sr.values.forEach((v,i)=>{
+      if(v === null || v === undefined) { started = false; return; }
+      d += (started ? ' L' : ' M') + x(i) + ' ' + y(v);
+      started = true;
+    });
+    if(d) g += `<path d="${d}" fill="none" stroke="${sr.color}" stroke-width="2.5"
+                 stroke-linecap="round" stroke-linejoin="round"/>`;
+    sr.values.forEach((v,i)=>{
+      if(v === null || v === undefined) return;
+      g += `<circle cx="${x(i)}" cy="${y(v)}" r="4.5" fill="#fff" stroke="${sr.color}" stroke-width="2.5"/>`;
+    });
+  });
+
+  // A white copy sits behind every label so it stays legible where it crosses a
+  // line. Drawn as its own element rather than with paint-order, which older
+  // browsers ignore - they would then paint the outline over the text.
+  const tx = (px,py,anchor,fill,size,txt) =>
+    `<text x="${px}" y="${py}" text-anchor="${anchor}" stroke="#fff" stroke-width="3"
+       stroke-linejoin="round" fill="none" style="font-size:${size}px;font-weight:700">${txt}</text>
+     <text x="${px}" y="${py}" text-anchor="${anchor}"
+       style="font-size:${size}px;font-weight:700;fill:${fill}">${txt}</text>`;
+
+  // the share printed above each point, nudged apart when two lines nearly touch
+  labels.forEach((lb,i)=>{
+    if(!lb.on) return;
+    const pts = series.map(sr=>({c: sr.color, v: sr.values[i]}))
+                      .filter(p=>p.v !== null && p.v !== undefined)
+                      .map(p=>({...p, ly: y(p.v) - 9}));
+    pts.sort((a,b)=>a.ly-b.ly);
+    for(let k=1;k<pts.length;k++)
+      if(pts[k].ly < pts[k-1].ly + 12.5) pts[k].ly = pts[k-1].ly + 12.5;
+    const over = pts.length ? pts[pts.length-1].ly - (T+ih-2) : 0;
+    if(over > 0) pts.forEach(p=>p.ly -= over);
+    const isLast = i === labels.length-1;
+    pts.forEach(p=>{
+      g += tx(x(i) + (isLast ? -8 : 8), p.ly, isLast?'end':'start', p.c, 9.5, p.v.toFixed(1)+'%');
+    });
+  });
+
+  // party name at the end of its own line
+  const lastOn = labels.reduce((a,lb,i)=>lb.on?i:a, -1);
+  if(lastOn >= 0){
+    const ends = series.map(sr=>({n: sr.name, c: sr.color, v: sr.values[lastOn]}))
+                       .filter(p=>p.v !== null && p.v !== undefined)
+                       .map(p=>({...p, ly: y(p.v) + 3.5}));
+    ends.sort((a,b)=>a.ly-b.ly);
+    for(let k=1;k<ends.length;k++)
+      if(ends[k].ly < ends[k-1].ly + 13) ends[k].ly = ends[k-1].ly + 13;
+    const over = ends.length ? ends[ends.length-1].ly - (T+ih) : 0;
+    if(over > 0) ends.forEach(p=>p.ly -= over);
+    ends.forEach(p=>{
+      g += `<line x1="${x(lastOn)+6}" y1="${y(p.v)}" x2="${W-R+4}" y2="${p.ly-3.5}"
+             stroke="${p.c}" stroke-width="1" opacity=".45"/>`
+        + tx(W-R+8, p.ly, 'start', p.c, 10.5, p.n);
+    });
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block">${g}</svg>`;
+}
+
+function legend(parts){
+  const tot = parts.reduce((a,b)=>a+b.v,0)||1;
+  return '<div style="display:flex;flex-direction:column;gap:6px;min-width:0">' + parts.map(p=>
+    `<div style="display:flex;align-items:center;gap:8px;font-size:12.5px">
+       <span style="width:10px;height:10px;border-radius:3px;background:${p.c};flex:none"></span>
+       <span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${p.n}</span>
+       <span class="num" style="font-weight:600">${(100*p.v/tot).toFixed(1)}%</span></div>`).join('') + '</div>';
+}
+function chartCard(title, sub, inner){
+  return `<div class="card"><h3>${title}${sub?`<span class="sub">${sub}</span>`:''}</h3>${inner}</div>`;
+}
+function hbarChart(items, maxv){
+  const mx = maxv || Math.max(...items.map(i=>i.v), 1);
+  return '<div style="display:flex;flex-direction:column;gap:9px">' + items.map(i=>
+    `<div style="display:flex;align-items:center;gap:10px">
+      <span style="width:34%;font-size:12.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${i.n}</span>
+      <div class="bar" style="flex:1;height:14px"><i style="width:${100*i.v/mx}%;background:${i.c}"></i></div>
+      <span class="num" style="width:64px;text-align:right;font-weight:600;font-size:12.5px">${i.label}</span>
+    </div>`).join('') + '</div>';
+}
+
+
+
+/* ---------------- navigation history ---------------- */
+var NAV = [];
+function pushNav(key, thunk){
+  if(NAV.length && NAV[NAV.length-1].key === key) return;   // same screen re-rendered
+  NAV.push({key, thunk});
+  if(NAV.length > 60) NAV.shift();
+}
+function goBack(){
+  if(NAV.length < 2){ NAV = []; return landing(); }
+  NAV.pop();                       // drop the screen we are leaving
+  NAV[NAV.length-1].thunk();       // thunks call the unwrapped screen, so nothing re-pushes
+}
+function backBtn(){
+  if(NAV.length < 2) return '';
+  return `<button class="sortbtn" onclick="goBack()" style="margin-right:10px">&larr; Back</button>`;
+}
+
+/* ---------------- accounts + saved villages (CRUD) ---------------- */
+const DB_USERS = 'mivote_users', DB_SESSION = 'mivote_session', DB_SAVED = 'mivote_saved';
+function lsGet(k, d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d; }catch(e){ return d; } }
+function lsSet(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+function hash(s){ let h=5381; for(let i=0;i<s.length;i++) h=((h<<5)+h+s.charCodeAt(i))>>>0; return ''+h; }
+
+/* built-in demo account so the app can be reviewed on any device */
+const BUILTIN = {id:'nitish', name:'Nitish', pw:'Nitish@123'};
+function seedBuiltin(){
+  const users = lsGet(DB_USERS, {});
+  const want = hash(BUILTIN.pw);
+  if(!users[BUILTIN.id] || users[BUILTIN.id].pw !== want){
+    users[BUILTIN.id] = {name: BUILTIN.name, email: BUILTIN.id, pw: want,
+                         joined: '2026-08-31', verified: true, builtin: true};
+    lsSet(DB_USERS, users);
+  }
+}
+
+function currentUser(){ const e = lsGet(DB_SESSION, null); return e ? (lsGet(DB_USERS, {})[e] || null) : null; }
+
+// Signing up and logging in both run through the OTP flow further down
+// (startSignup / startLogin / verifyOtp); there is no password-only path in.
+function logOut(){ localStorage.removeItem(DB_SESSION); NAV = []; paintHeader(); authMode='login'; authScreen(); }
+
+/* saved villages: CREATE / READ / UPDATE / DELETE */
+function savedAll(){
+  const u = currentUser(); if(!u) return [];
+  return lsGet(DB_SAVED, {})[u.email] || [];
+}
+function savedWrite(list){
+  const u = currentUser(); if(!u) return;
+  const all = lsGet(DB_SAVED, {}); all[u.email] = list; lsSet(DB_SAVED, all);
+}
+function savedId(ac, v){ return ac + '||' + v; }
+function isSaved(ac, v){ return savedAll().some(x=>x.id === savedId(ac,v)); }
+function saveVillage(ac, v, note){
+  const list = savedAll();
+  if(list.some(x=>x.id===savedId(ac,v))) return false;
+  list.push({id: savedId(ac,v), ac, village: v, note: note||'',
+             added: new Date().toISOString().slice(0,10)});
+  savedWrite(list); return true;
+}
+function updateNote(id, note){
+  const list = savedAll(); const item = list.find(x=>x.id===id);
+  if(item){ item.note = note; item.edited = new Date().toISOString().slice(0,10); savedWrite(list); }
+}
+function deleteSaved(id){ savedWrite(savedAll().filter(x=>x.id!==id)); }
+
+
+/* ---------------- email delivery (EmailJS) ----------------
+   These three values are public by design - EmailJS keys are meant to sit in
+   browser code. The private key is NOT here and is not needed. Blank them out
+   and the app falls back to showing the code on screen.                    */
+const MAIL = {
+  publicKey:  'ZvtO3augV3YviVePo',
+  serviceId:  'service_xgtj957',
+  templateId: 'template_h7ejygs',
+};
+const isEmail = a => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(a || '');
+
+/* ---------------- OTP verification ----------------
+   One flow serves both journeys. Signing up and logging in each issue a
+   4-digit code, so a password alone is never enough to reach an account.
+   `purpose` tells verifyOtp what to do once the code checks out.          */
+var pendingOtp = null;
+const OTP_TTL = 120000, OTP_MAX_TRIES = 3, OTP_LEN = 4;
+
+// Can this code actually be emailed? Needs the keys, the SDK, and a real
+// address - the built-in reviewer account signs in as "Nitish", not an inbox.
+function canEmailOtp(){
+  return !!(MAIL.publicKey && MAIL.serviceId && MAIL.templateId
+            && typeof emailjs !== 'undefined' && pendingOtp && isEmail(pendingOtp.email));
+}
+
+function otpStatus(html){
+  const el = document.getElementById('otpStatus');
+  if(el) el.innerHTML = html;
+}
+
+// Fire the email and report back in place, so the code box never gets wiped
+// mid-typing by a re-render.
+function sendOtpEmail(){
+  if(!canEmailOtp()){
+    pendingOtp.delivery = 'onscreen';
+    return otpStatus(demoBanner());
+  }
+  // hold onto this attempt: the user may verify, resend or leave the screen
+  // before the network call comes back, and by then pendingOtp may be gone
+  const otp = pendingOtp;
+  const stale = () => pendingOtp !== otp;
+  otp.delivery = 'sending';
+  otpStatus(`<div class="footnote" style="border:none;padding-top:0;margin-top:0">Sending your code…</div>`);
+  try{ emailjs.init({publicKey: MAIL.publicKey}); }catch(e){}
+  emailjs.send(MAIL.serviceId, MAIL.templateId, {
+    passcode: otp.code,
+    to_name:  otp.name || 'there',
+    to_email: otp.email,
+  }).then(()=>{
+    if(stale()) return;
+    otp.delivery = 'sent';
+    otpStatus(`<div class="insight" style="margin:12px 0 0">Code sent to
+      <b>${otp.email}</b>. Check your inbox, and the spam folder if it is not there.</div>`);
+  }).catch(err=>{
+    console.warn('EmailJS send failed:', err);
+    if(stale()) return;
+    // never strand the user: fall back to the on-screen code
+    otp.delivery = 'onscreen';
+    otpStatus(demoBanner('Email could not be sent just now, so here is your code.'));
+  });
+}
+
+// Shown only when there is nowhere to email: the built-in demo account, or a
+// failed send. Deliberately quiet - it is a fallback, not the normal path.
+function demoBanner(reason){
+  return `<div class="insight" style="margin:12px 0">
+    ${reason || 'Demo account — the code appears here instead of an inbox.'}
+    <div style="font-size:26px;font-weight:800;letter-spacing:.22em;color:var(--tx);margin-top:6px">${pendingOtp.code}</div>
+  </div>`;
+}
+
+const newCode = () => String(Math.floor(Math.random() * Math.pow(10, OTP_LEN)))
+                        .padStart(OTP_LEN, '0');
+
+function startSignup(name, email, pass){
+  email = (email||'').trim().toLowerCase();
+  if(!name || !email || !pass) return 'Please fill in every field.';
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return 'That email address does not look right.';
+  if(pass.length < 6) return 'Password must be at least 6 characters.';
+  if(lsGet(DB_USERS, {})[email]) return 'An account with that email already exists — try logging in.';
+  pendingOtp = {purpose:'signup', name: name.trim(), email, pass,
+                code: newCode(), sent: Date.now(), tries: 0};
+  return null;
+}
+
+// the password is checked BEFORE a code is issued, so a wrong password never
+// reaches the second step
+function startLogin(email, pass){
+  email = (email||'').trim().toLowerCase();
+  if(!email || !pass) return 'Please enter your username and password.';
+  const u = lsGet(DB_USERS, {})[email];
+  if(!u) return 'No account found with that username.';
+  if(u.pw !== hash(pass)) return 'Wrong password.';
+  pendingOtp = {purpose:'login', name: u.name, email, code: newCode(),
+                sent: Date.now(), tries: 0};
+  return null;
+}
+
+function otpExpired(){ return !pendingOtp || (Date.now() - pendingOtp.sent) > OTP_TTL; }
+
+function otpBack(msg){
+  const p = pendingOtp && pendingOtp.purpose === 'login' ? 'login' : 'signup';
+  pendingOtp = null; authMode = p;
+  return authScreen(msg);
+}
+
+function resendOtp(){
+  if(!pendingOtp) return otpBack();
+  pendingOtp.code = newCode();
+  pendingOtp.sent = Date.now();
+  pendingOtp.tries = 0;
+  pendingOtp.delivery = null;          // clear so a fresh code really is sent
+  otpScreen('A new code has been sent.');
+}
+
+function verifyOtp(){
+  if(!pendingOtp) return otpBack('Please start again.');
+  if(otpExpired()) return otpScreen('That code has expired. Tap Resend to get a new one.');
+  const entered = (document.getElementById('otpInput').value||'').trim();
+  if(!new RegExp('^\\d{'+OTP_LEN+'}$').test(entered))
+    return otpScreen(`Enter the ${OTP_LEN}-digit code.`);
+  if(entered !== pendingOtp.code){
+    pendingOtp.tries++;
+    if(pendingOtp.tries >= OTP_MAX_TRIES)
+      return otpBack('Too many incorrect codes. Please start again.');
+    return otpScreen(`Incorrect code. ${OTP_MAX_TRIES - pendingOtp.tries} attempt(s) left.`);
+  }
+  if(pendingOtp.purpose === 'signup'){
+    const users = lsGet(DB_USERS, {});
+    users[pendingOtp.email] = {name: pendingOtp.name, email: pendingOtp.email,
+      pw: hash(pendingOtp.pass), joined: new Date().toISOString().slice(0,10), verified: true};
+    lsSet(DB_USERS, users);
+  }
+  lsSet(DB_SESSION, pendingOtp.email);
+  pendingOtp = null;
+  paintHeader();
+  landing();
+}
+
+function otpScreen(msg){
+  navchips(false);
+  const signup = pendingOtp.purpose === 'signup';
+  const left = Math.max(0, Math.ceil((OTP_TTL - (Date.now() - pendingOtp.sent))/1000));
+  view.innerHTML = `
+  <div style="max-width:400px;margin:36px auto 0">
+    ${crumb([['MiVote','landing()'],[signup ? 'Verify email' : 'Verify it is you', null]])}
+    <div class="card">
+      <h3>${signup ? 'Verify your email' : 'One more step'}</h3>
+      <p style="color:var(--tx2);font-size:13.5px">${isEmail(pendingOtp.email)
+        ? `We sent a ${OTP_LEN}-digit code to <b style="color:var(--tx)">${pendingOtp.email}</b>.`
+        : `Enter the ${OTP_LEN}-digit code to confirm it is you.`}</p>
+      ${msg ? `<div class="note" style="margin-bottom:12px">${msg}</div>` : ''}
+      <div id="otpStatus"></div>
+      <input id="otpInput" class="searchbox" inputmode="numeric" maxlength="${OTP_LEN}"
+             placeholder="Enter ${OTP_LEN}-digit code"
+             style="text-align:center;letter-spacing:.4em;font-size:20px;font-weight:600"
+             oninput="if(this.value.length===${OTP_LEN}) verifyOtp()"
+             onkeydown="if(event.key==='Enter') verifyOtp()">
+      <button class="btn" style="width:100%" onclick="verifyOtp()">
+        ${signup ? 'Verify and create account' : 'Verify and log in'}</button>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px;font-size:12.5px">
+        <span style="color:var(--tx3)">${left>0 ? 'Code expires in '+left+'s' : 'Code expired'}</span>
+        <a onclick="resendOtp()" style="color:var(--acc);font-weight:600;cursor:pointer">Resend code</a>
+      </div>
+      <div class="footnote">Codes expire after 2 minutes and allow 3 attempts.</div>
+    </div>
+  </div>`;
+  const box = document.getElementById('otpInput');
+  if(box) box.focus();
+  // re-rendering the screen (resend, wrong code) must not re-send the email
+  if(!pendingOtp.delivery) sendOtpEmail();
+  else if(pendingOtp.delivery === 'onscreen') otpStatus(demoBanner());
+  window.scrollTo(0,0);
+}
+
+/* ---------------- auth screens ---------------- */
+var authMode = 'login';
+function authScreen(msg){
+  navchips(false);
+  const signup = authMode === 'signup';
+  view.innerHTML = `
+  <div style="max-width:400px;margin:36px auto 0">
+    <div style="text-align:center;margin-bottom:16px">
+      <h2 style="font-size:38px;font-weight:800;letter-spacing:-.02em">
+        <span style="color:#f96806">Mi</span><span style="color:#007a1c">Vote</span></h2>
+      <p style="color:var(--tx2);font-size:13.5px;margin-top:4px">
+        Village-wise election results, verified against Form 20</p>
+    </div>
+    <div class="card">
+      <div class="segbar">
+        <button class="seg ${signup?'':'on'}" onclick="authMode='login';authScreen()">Log in</button>
+        <button class="seg ${signup?'on':''}" onclick="authMode='signup';authScreen()">Create account</button>
+      </div>
+      ${msg ? `<div class="note" style="margin-top:0;margin-bottom:12px">${msg}</div>` : ''}
+      ${signup ? `<label class="fl">Your name</label>
+        <input id="auName" class="searchbox" placeholder="Nitish Chaudhary" autocomplete="name">` : ''}
+      <label class="fl">${signup ? 'Email address' : 'Username or email'}</label>
+      <input id="auEmail" class="searchbox" type="text"
+             placeholder="${signup ? 'you@example.com' : 'you@example.com'}"
+             autocomplete="${signup?'email':'username'}">
+      <label class="fl">Password</label>
+      <input id="auPass" class="searchbox" type="password"
+             placeholder="${signup ? 'At least 6 characters' : 'Your password'}"
+             autocomplete="${signup?'new-password':'current-password'}"
+             onkeydown="if(event.key==='Enter') doAuth()">
+      <button class="btn mt" style="width:100%" onclick="doAuth()">
+        ${signup ? 'Create account' : 'Log in'}</button>
+      <div class="footnote" style="text-align:center;border:none;padding-top:10px">
+        We will send a 4-digit code to confirm it is you.</div>
+    </div>
+  </div>`;
+  window.scrollTo(0,0);
+}
+function doAuth(){
+  const email = document.getElementById('auEmail').value;
+  const pass  = document.getElementById('auPass').value;
+  // both journeys now go through the code step
+  const err = authMode === 'signup'
+    ? startSignup(document.getElementById('auName').value, email, pass)
+    : startLogin(email, pass);
+  if(err) return authScreen(err);
+  return otpScreen();
+}
+
+/* ---------------- My List: the CRUD screen ---------------- */
+function myList(msg){
+  const u = currentUser();
+  if(!u){ authMode='login'; return authScreen('Log in to see your saved villages.'); }
+  navchips(false);
+  const list = savedAll();
+  const rows = list.map(x=>`
+    <tr>
+      <td><a class="cand" onclick="openVill('${x.ac}','${x.village.replace(/'/g,"\\'")}')">${x.village}</a>
+          <div style="font-size:12px;color:var(--tx3)">${x.ac}</div></td>
+      <td style="width:42%">
+        <input class="searchbox" style="margin:0" id="note_${btoa(x.id).replace(/=/g,'')}"
+               value="${(x.note||'').replace(/"/g,'&quot;')}" placeholder="Add a note…">
+      </td>
+      <td class="r" style="white-space:nowrap">
+        <button class="sortbtn" onclick="saveNote('${x.id}')">Save</button>
+        <button class="sortbtn" style="border-color:#e6b3b3;color:#c23b3b"
+                onclick="removeSaved('${x.id}')">Delete</button>
+      </td>
+    </tr>`).join('');
+  view.innerHTML = crumb([['MiVote','home()'],['My villages',null]]) + `
+  <div class="grid g3 mb">
+    ${statCard('person','#eeeefb','#5b5bd6', u.name, u.email)}
+    ${statCard('vill','#e7f6ef','#12915f', list.length, 'villages saved')}
+    ${statCard('votes','#e8f0fe','#3f83f8', fmt(list.reduce((s,x)=>s+villageVotes(x.ac,x.village),0)), 'votes being tracked')}
+  </div>
+  ${msg ? `<div class="insight">${msg}</div>` : ''}
+  <div class="card">
+    <h3>My villages <span class="sub">edit a note and press Save, or remove a village</span></h3>
+    ${list.length ? `<table><thead><tr><th>Village</th><th>My note</th><th></th></tr></thead>
+      <tbody>${rows}</tbody></table>`
+    : `<p style="color:var(--tx2)">You have not saved any villages yet. Open any village and
+       tap <b>Save to my list</b> to start tracking it.</p>
+       <button class="btn mt" onclick="home()">Browse constituencies</button>`}
+  </div>`;
+  window.scrollTo(0,0);
+}
+function villageVotes(ac, v){
+  const d = DATA[ac];
+  return (d && d.villages && d.villages[v]) ? d.villages[v].valid : 0;
+}
+function saveNote(id){
+  const el = document.getElementById('note_' + btoa(id).replace(/=/g,''));
+  updateNote(id, el ? el.value : '');
+  myList('Note saved.');
+}
+function removeSaved(id){
+  deleteSaved(id);
+  myList('Village removed from your list.');
+}
+function toggleSave(ac, v){
+  if(!currentUser()){ authMode='signup'; return authScreen('Create a free account to save villages.'); }
+  if(isSaved(ac,v)){ deleteSaved(savedId(ac,v)); } else { saveVillage(ac, v, ''); }
+  openVill(ac, v);
+}
+function paintHeader(){
+  const el = document.getElementById('userbox');
+  if(!el) return;
+  const u = currentUser();
+  el.innerHTML = u
+    ? `<span style="font-size:12.5px;color:var(--tx2)">Hi, <b style="color:var(--tx)">${u.name.split(' ')[0]}</b></span>
+       <button class="sortbtn" onclick="myList()">My villages</button>
+       <button class="sortbtn" onclick="logOut()">Log out</button>`
+    : `<button class="sortbtn" onclick="authMode='login';authScreen()">Log in</button>
+       <button class="btn" style="padding:6px 14px" onclick="authMode='signup';authScreen()">Sign up</button>`;
+}
+
+function crumb(parts){
+  const trail = parts.map(p=> p[1]!==null?`<a onclick="${p[1]}">${p[0]}</a>`
+                : `<span style="color:var(--tx2);font-weight:600">${p[0]}</span>`).join('  ›  ');
+  return '<div class="crumb" style="display:flex;align-items:center;flex-wrap:wrap;gap:4px">'
+       + backBtn() + '<span>' + trail + '</span></div>';
+}
+var SENTIMENT = null;
+async function loadSentiment(){
+  if(SENTIMENT !== null) return SENTIMENT;
+  try{
+    const r = await fetch('data/sentiment.json');
+    SENTIMENT = r.ok ? await r.json() : {seats:{}};
+  }catch(e){ SENTIMENT = {seats:{}}; }
+  return SENTIMENT;
+}
+function sentimentCard(ac){
+  const S = SENTIMENT && SENTIMENT.seats ? SENTIMENT.seats[ac] : null;
+  const d = DATA[ac];
+  const top = (d && d.cands ? d.cands : []).slice(0,5);
+  if(!top.length) return '';
+  // only show this card where we actually have scored coverage
+  const scored = S && top.some(c => S[c.n] && S[c.n].score !== null && S[c.n].score !== undefined);
+  if(!scored) return '';
+  const rows = top.map(c=>{
+    const e = S ? S[c.n] : null;
+    if(!e || e.score === null || e.score === undefined){
+      return `<tr><td style="font-weight:600">${c.n} ${chipP(c.p)}</td>
+        <td colspan="2" style="color:var(--tx3);font-size:12.5px">Not enough recent coverage to score${e&&e.articles?` (${e.articles} article${e.articles>1?'s':''})`:''}</td></tr>`;
+    }
+    const good = e.score >= 50;
+    const col = good ? 'var(--gn)' : '#c23b3b';
+    const bg = good ? 'var(--gnbg)' : '#fdecec';
+    return `<tr><td style="font-weight:600">${c.n} ${chipP(c.p)}</td>
+      <td style="width:45%"><div class="bar"><i style="width:${e.score}%;background:${col}"></i></div>
+        <div style="font-size:11.5px;color:var(--tx3);margin-top:4px">${e.summary||''}</div>
+        ${(e.sources||[]).length? `<div style="margin-top:6px">${e.sources.map(s=>`<a href="${s.u}" target="_blank" style="color:var(--acc);font-size:11.5px;text-decoration:none">• ${s.t} <span style="color:var(--tx3)">(${s.s})</span></a><br>`).join('')}</div>`:''}
+      </td>
+      <td class="r"><span style="background:${bg};color:${col};font-weight:700;border-radius:999px;padding:4px 12px">${e.score}</span>
+        <div style="font-size:11px;color:var(--tx3);margin-top:4px">${e.articles||0} articles</div></td></tr>`;
+  }).join('');
+  return `<div class="card mb">
+    <h3>Media sentiment <span class="sub">automated tone of news coverage · not a public opinion poll</span></h3>
+    <table><tbody>${rows}</tbody></table>
+    <div class="note">This score reflects how a candidate has been written about in news articles we could retrieve — it does not measure voter opinion, support, or likely results. Scores above 50 lean positive, below 50 lean negative. Sources are linked so you can judge for yourself.${SENTIMENT&&SENTIMENT.updated?` Last updated ${SENTIMENT.updated}.`:''}</div>
+  </div>`;
+}
+const lsOf = ac => (DIR.find(a=>a.n===ac)||{}).ls || '';
+const acCrumb = ac => [['Haryana 2024','home()'],[lsOf(ac)+' LS',`openLS('${lsOf(ac)}')`]];
+const LS_ORDER = ['Ambala','Kurukshetra','Sirsa','Hisar','Karnal','Sonipat','Rohtak','Bhiwani-Mahendragarh','Gurgaon','Faridabad'];
+const STATES = ['Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Delhi','Goa','Gujarat','Haryana','Himachal Pradesh','Jammu & Kashmir','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Puducherry','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal'];
+const HAS_DATA = {'Haryana': {'Vidhan Sabha': ['2024','2019'], 'Lok Sabha': ['2024','2019']}};
+// Vidhan Sabha 2024 covers all 90 seats; the other elections are being added
+// constituency by constituency and are listed per seat in the directory (a.e).
+const acsFor = eid => eid && eid !== 'vs2024'
+  ? DIR.filter(a => (a.e||[]).includes(eid)) : DIR;
+
+function navchips(on){ paintHeader(); document.getElementById('navchips').style.display = on? '' : 'none'; }
+
+const ELECTION_OPTIONS = [
+  {id:'vs2024', label:'Vidhan Sabha 2024', on:true},
+  {id:'ls2024', label:'Lok Sabha 2024',    on:true},
+  {id:'vs2019', label:'Vidhan Sabha 2019', on:true},
+  {id:'ls2019', label:'Lok Sabha 2019',    on:true},
+];
+
+function aboutFounder(){
+  navchips(false);
+  view.innerHTML = `
+  <div style="max-width:560px;margin:40px auto 0">
+    ${crumb([['MiVote','landing()'],['About the founder',null]])}
+    <div class="card">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+        <div style="width:48px;height:48px;border-radius:16px;background:var(--accbg);display:flex;align-items:center;justify-content:center">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        </div>
+        <div><div style="font-weight:700;font-size:16px">Nitish Chaudhary</div>
+        <div style="color:var(--tx3);font-size:12.5px">Founder, MiVote</div></div>
+      </div>
+      <p style="color:var(--tx2);line-height:1.7">Nitish Chaudhary, 25, is from Meerut, Uttar Pradesh. He holds a Master's degree in
+      Political Science from Chaudhary Charan Singh University (CCSU), Meerut, and is currently
+      pursuing an MBA at MICA, Ahmedabad.</p>
+    </div>
+  </div>`;
+  window.scrollTo(0,0);
+}
+
+function landing(){
+  navchips(false);
+  const st = STATES.map(x => HAS_DATA[x]
+        ? `<option value="${x}">${x}</option>`
+        : `<option disabled>${x} — coming soon</option>`).join('');
+  const el = ELECTION_OPTIONS.map(e => {
+    if(!e.on) return `<option disabled>${e.label} — coming soon</option>`;
+    const n = acsFor(e.id).length;
+    return `<option value="${e.id}">${e.label}${n<DIR.length? ` — ${n} seat${n>1?'s':''}`:''}</option>`;
+  }).join('');
+  view.innerHTML = `
+  <div style="max-width:520px;margin:34px auto 0;text-align:center">
+    <h2 style="font-size:42px;font-weight:800;letter-spacing:-.02em">
+      <span style="color:#f96806">Mi</span><span style="color:#007a1c">Vote</span></h2>
+    <p style="color:var(--tx2);margin:8px 0 20px">Village-wise election results, verified against Form 20</p>
+
+    <div class="card" style="text-align:left">
+      <h3>Find a result <span class="sub">fill only what you know</span></h3>
+
+      <label class="fl">State</label>
+      <select id="fSt" onchange="syncFinder()"><option value="">All states…</option>${st}</select>
+
+      <label class="fl">Election</label>
+      <select id="fEl" onchange="syncFinder()"><option value="">Any election…</option>${el}</select>
+
+      <label class="fl">Lok Sabha constituency</label>
+      <select id="fLs" onchange="syncFinder()" disabled><option value="">Choose a state first</option></select>
+
+      <label class="fl">Vidhan Sabha constituency</label>
+      <select id="fAc" disabled><option value="">Choose a state first</option></select>
+
+      <button class="btn mt" style="width:100%" onclick="showResult()">Show result</button>
+      <div class="footnote" id="finderHint">Leave a box blank to see everything at that level —
+        pick just an election to see the whole state.</div>
+    </div>
+
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap">
+      <button class="btn ghost" onclick="aboutFounder()">About the founder</button>
+      <button class="btn ghost" onclick="currentUser()? myList() : (authMode='signup', authScreen())">
+        ${currentUser() ? 'My villages' : 'Create free account'}</button>
+    </div>
+  </div>`;
+  syncFinder();
+  window.scrollTo(0,0);
+}
+
+function syncFinder(){
+  const stv = document.getElementById('fSt').value;
+  const elv = document.getElementById('fEl').value;
+  const lsSel = document.getElementById('fLs'), acSel = document.getElementById('fAc');
+  if(!stv || !HAS_DATA[stv]){
+    lsSel.innerHTML = '<option value="">Choose a state first</option>'; lsSel.disabled = true;
+    acSel.innerHTML = '<option value="">Choose a state first</option>'; acSel.disabled = true;
+    return;
+  }
+  // Only Vidhan Sabha 2024 covers all 90 seats. For any other election, narrow
+  // both lists to the constituencies that actually hold that data rather than
+  // offering pages that would come up empty.
+  const pool = acsFor(elv);
+  const partial = pool.length < DIR.length;
+  const seats = LS_ORDER.filter(l => pool.some(a => a.ls === l));
+  const keepLs = seats.includes(lsSel.value) ? lsSel.value : (partial && seats.length===1 ? seats[0] : '');
+  lsSel.disabled = false;
+  lsSel.innerHTML = (seats.length>1 ? `<option value="">All ${seats.length} Lok Sabha seats…</option>` : '') +
+    seats.map(l=>`<option ${l===keepLs?'selected':''}>${l}</option>`).join('');
+  const lsv = lsSel.value;
+  const acs = pool.filter(a => !lsv || a.ls === lsv).map(a=>a.n).sort();
+  acSel.disabled = false;
+  acSel.innerHTML = `<option value="">${
+      partial ? `All ${acs.length} seat${acs.length>1?'s':''} with this data`
+              : (lsv ? 'All 9 seats in '+lsv : 'All 90 assembly seats…')}</option>` +
+    acs.map(a=>`<option>${a}</option>`).join('');
+  const hint = document.getElementById('finderHint');
+  const lbl = (ELECTION_OPTIONS.find(e=>e.id===elv)||{}).label;
+  if(hint) hint.innerHTML = partial
+    ? `${lbl} is mapped village-wise for ${acs.length===1?'<b>'+acs[0]+'</b>':acs.length+' seats'} so far.
+       Open a village there and use <b>Compare</b> to see it across every election we hold.`
+    : 'Leave a box blank to see everything at that level — pick just an election to see the whole state.';
+}
+
+function showResult(){
+  const ac = document.getElementById('fAc').value;
+  const ls = document.getElementById('fLs').value;
+  if(ac) return openAC(ac);
+  if(ls) return openLS(ls);
+  return home();
+}
+
+function home(){
+  navchips(true);
+  const seatMax = 48;
+  const lsCards = LS_ORDER.map(ls=>{
+    const acs = DIR.filter(a=>a.ls===ls);
+    const wins = {};
+    acs.forEach(a=>{ wins[a.w]=(wins[a.w]||0)+1; });
+    const split = Object.entries(wins).sort((a,b)=>b[1]-a[1])
+      .map(([p,c])=>`<span class="chip" style="background:${pbg(p)};color:${ptx(p)}">${p} ${c}</span>`).join(' ');
+    return `<div class="card click" style="cursor:pointer" onclick="openLS('${ls}')">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <div style="font-weight:700;font-size:15px">${ls}</div>
+        <span class="demo">9 seats ›</span>
+      </div>
+      <div style="display:flex;gap:5px;flex-wrap:wrap">${split}</div>
+    </div>`;
+  }).join('');
+  view.innerHTML = crumb([['Haryana · Vidhan Sabha · 2024',null]]) + `
+  <div class="grid g4 mb">
+    ${statCard('seat','#eeeefb','#5b5bd6','90','Constituencies')}
+    ${statCard('vill','#e7f6ef','#12915f','7,014','Villages & wards')}
+    ${statCard('booth','#feefe3','#f0731f','20,447','Booths counted')}
+    ${statCard('votes','#e8f0fe','#3f83f8','1.36 Cr','EVM votes')}
+  </div>
+  <div class="grid g2 mb">
+    <div class="card"><h3>Seats won <span class="sub">majority mark 46</span></h3>
+      <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+        ${donut(SEATS.map(([p,v])=>({n:p,v,c:pc(p)})), 150, '90', 'seats')}
+        <div style="flex:1;min-width:150px">${legend(SEATS.map(([p,v])=>({n:p+' — '+v+' seats',v,c:pc(p)})))}</div>
+      </div>
+    </div>
+    <div class="card"><h3>Vote share <span class="sub">statewide EVM votes</span></h3>
+      <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+        ${donut(VSHARE.map(([p,v])=>({n:p,v,c:pc(p.split(' ')[0])})), 150, '1.36', 'crore votes')}
+        <div style="flex:1;min-width:150px">${legend(VSHARE.map(([p,v])=>({n:p,v,c:pc(p.split(' ')[0])})))}</div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb">
+    <h3>Find your constituency <span class="sub">type to jump straight to any Vidhan Sabha seat</span></h3>
+    <input class="searchbox" placeholder="Search Vidhan Sabha constituency…" oninput="quickSearch(this.value)" style="margin-bottom:0">
+    <div id="qsout"></div>
+  </div>
+  <h3 style="font-size:14px;font-weight:700;margin:4px 4px 10px">Lok Sabha constituencies <span style="color:var(--tx3);font-weight:500;font-size:12px">· each holds 9 Vidhan Sabha seats</span></h3>
+  <div class="grid g2">${lsCards}</div>`;
+}
+function quickSearch(q){
+  q=q.toLowerCase().trim();
+  const out=document.getElementById('qsout');
+  if(!q){ out.innerHTML=''; return; }
+  const hits = DIR.filter(a=>a.n.toLowerCase().includes(q)).slice(0,8);
+  out.innerHTML = hits.length? '<div class="mt">'+hits.map(a=>
+    `<div class="click" style="padding:9px 10px;border-radius:10px;cursor:pointer;display:flex;justify-content:space-between" onclick="openAC('${a.n}')">
+     <span style="font-weight:600">${a.n}</span><span style="color:var(--tx3);font-size:12px">${a.ls} LS ›</span></div>`).join('')+'</div>'
+    : '<div class="mt" style="color:var(--tx3);font-size:13px;padding:0 4px">No constituency matches.</div>';
+}
+function openLS(ls){
+  navchips(true);
+  const acs = DIR.filter(a=>a.ls===ls);
+  const rows = acs.map(a=>{
+    const st = a.s==='ok' ? '<span class="pill-ok">Verified</span>' : (a.s==='partial'?'<span class="pill-warn">Partial</span>':'<span class="pill-warn">AC total only</span>');
+    return `<tr class="click" onclick="openAC('${a.n}')"><td style="font-weight:600">${a.n}</td>
+    <td>${chipP(a.w)}</td><td class="r num">${a.v??'—'}</td><td class="r num">${a.b??'—'}</td><td>${st}</td><td class="r"><span class="demo">›</span></td></tr>`;
+  }).join('');
+  const wins={}; acs.forEach(a=>{wins[a.w]=(wins[a.w]||0)+1});
+  view.innerHTML = crumb([['Haryana 2024','home()'],[ls+' Lok Sabha',null]]) + `
+  <div class="grid g3 mb">
+    ${statCard('seat','#eeeefb','#5b5bd6','9','Vidhan Sabha seats')}
+    ${statCard('vill','#e7f6ef','#12915f', fmt(acs.reduce((s,a)=>s+(a.v||0),0)), 'Villages & wards')}
+    ${statCard('rank','#feefe3','#f0731f', Object.entries(wins).sort((a,b)=>b[1]-a[1]).map(([p,c])=>p+' '+c).join(' · '), 'Seats by party')}
+  </div>
+  <div class="card">
+    <h3>Vidhan Sabha seats in ${ls} <span class="sub">tap a seat for village-wise results</span></h3>
+    <table><thead><tr><th>Constituency</th><th>Winner</th><th class="r">Villages</th><th class="r">Booths</th><th>Status</th><th></th></tr></thead>
+    <tbody>${rows}</tbody></table>
+  </div>`;
+  window.scrollTo(0,0);
+}
+async function openAC(ac){
+  const d = await getAC(ac);
+  if(!d) return;
+  await loadSentiment();
+  if(!d.villages || Object.keys(d.villages).length===0){ return acOnly(ac,d); }
+  const total = d.cands.reduce((s,c)=>s+c.v,0);
+  const max = d.cands[0].v;
+  const winner = d.cands[0];
+  const vills = Object.entries(d.villages).sort((a,b)=>b[1].valid-a[1].valid);
+  const flipped = vills.filter(([v,vd])=>{
+    let best=-1,bi=0; for(const[i,x] of Object.entries(vd.votes)) if(x>best){best=x;bi=i}
+    return +bi !== winner.i;
+  });
+  const candRow = c=>`<tr><td class="num r" style="width:28px;color:var(--tx3)">${c.r}</td>
+    <td><a class="cand" onclick="openCand('${ac}',${c.i})">${c.n}</a>${c.r===1?'<span class="win">Won</span>':''}</td>
+    <td>${chipP(c.p)}</td>
+    <td style="width:26%"><div class="bar"><i style="width:${100*c.v/max}%;background:${pc(c.p)}"></i></div></td>
+    <td class="r num" style="font-weight:600">${fmt(c.v)}</td><td class="r num" style="color:var(--tx2)">${(100*c.v/total).toFixed(1)}%</td></tr>`;
+  const acTop4 = d.cands.slice(0,4), acOthers = d.cands.slice(4);
+  const acOsum = acOthers.reduce((s,c)=>s+c.v,0);
+  const candRows = acTop4.map(candRow).join('') + (acOthers.length? `
+    <tr class="othersrow" onclick="document.getElementById('acoth').style.display='';this.style.display='none'">
+      <td></td><td class="lbl">Others — ${acOthers.length} candidates ▾</td><td></td>
+      <td><div class="bar"><i style="width:${100*acOsum/max}%;background:#e3b23c"></i></div></td>
+      <td class="r num" style="color:var(--am);font-weight:700">${fmt(acOsum)}</td>
+      <td class="r num" style="color:var(--am)">${(100*acOsum/total).toFixed(1)}%</td></tr>`:'');
+  const candRowsHidden = acOthers.map(candRow).join('');
+  const vRow = ([v,vd])=>{
+    let best=-1,bi=0; for(const[i,x] of Object.entries(vd.votes)) if(x>best){best=x;bi=i}
+    const bc = d.cands.find(c=>c.i==+bi);
+    return `<tr class="click" onclick="openVill('${ac}','${v.replace(/'/g,"\\'")}')">
+    <td style="font-weight:600">${v}</td><td class="r num">${vd.b}</td><td class="r num">${fmt(vd.valid)}</td>
+    <td><span class="dot" style="background:${pc(bc.p)}"></span>${bc.n.split(' ')[0]} <span style="color:var(--tx3);font-size:12px">${bc.p}</span></td></tr>`;
+  };
+  const vRowsFirst = vills.slice(0,10).map(vRow).join('');
+  const vRowsRest = vills.slice(10).map(vRow).join('');
+  const showAllRow = vills.length>10 ? `
+    <tr id="vshowall"><td colspan="4" style="text-align:center;padding:12px">
+      <button class="btn ghost" onclick="document.getElementById('vmore').style.display='';this.parentNode.parentNode.style.display='none'">
+      Show all ${vills.length} villages ▾</button></td></tr>` : '';
+  const maxV = vills[0][1].valid;
+  const topBars = vills.slice(0,8).map(([v,vd])=>{
+    let best=-1,bi=0; for(const[i,x] of Object.entries(vd.votes)) if(x>best){best=x;bi=i}
+    const bc=d.cands.find(c=>c.i==+bi);
+    return `<div class="vb"><em class="num">${(vd.valid/1000).toFixed(1)}k</em><i style="height:${Math.max(6, Math.round(75*vd.valid/maxV))}%;background:${pc(bc.p)}"></i><span title="${v}">${v}</span></div>`;
+  }).join('');
+  view.innerHTML = crumb([...acCrumb(ac),[ac,null]]) + `
+  <div class="grid g4 mb">
+    ${statCard('vill','#e7f6ef','#12915f', d.nvill, 'Villages / areas')}
+    ${statCard('booth','#feefe3','#f0731f', d.booths, 'Booths')}
+    ${statCard('votes','#e8f0fe','#3f83f8', fmt(total), 'EVM votes')}
+    ${statCard('rank', pbg(winner.p), pc(winner.p), winner.p, 'Winning party')}
+  </div>
+  <div class="grid g2 mb">
+    <div class="card"><h3>Vote share <span class="sub">who got what</span></h3>
+      <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+        ${donut([...acTop4.map(c=>({n:c.n,v:c.v,c:pc(c.p)})), {n:'Others',v:acOsum,c:'#c9cfda'}], 150,
+                (100*winner.v/total).toFixed(0)+'%', winner.p+' won')}
+        <div style="flex:1;min-width:160px">${legend([...acTop4.map(c=>({n:c.n+' ('+c.p+')',v:c.v,c:pc(c.p)})), {n:'Others — '+acOthers.length+' candidates',v:acOsum,c:'#c9cfda'}])}</div>
+      </div>
+    </div>
+    <div class="card"><h3>Winning margin <span class="sub">first vs second</span></h3>
+      ${hbarChart(d.cands.slice(0,2).map(c=>({n:c.n,v:c.v,c:pc(c.p),label:fmt(c.v)})), d.cands[0].v)}
+      <div class="insight mt" style="margin-bottom:0">Margin <b>${fmt(d.cands[0].v-d.cands[1].v)}</b> votes
+        (${(100*(d.cands[0].v-d.cands[1].v)/total).toFixed(1)}% of votes polled)</div>
+    </div>
+  </div>
+  <div class="card mb">
+    <h3>Result <span class="sub">tap a candidate for village-wise performance · tap Others to expand</span></h3>
+    <table><thead><tr><th class="r">#</th><th>Candidate</th><th>Party</th><th>Votes</th><th class="r">Count</th><th class="r">Share</th></tr></thead>
+    <tbody>${candRows}</tbody><tbody id="acoth" style="display:none">${candRowsHidden}</tbody></table>
+  </div>
+  ${sentimentCard(ac)}
+  <div class="card mb">
+    <h3>Village-wise result <span class="sub">tap a village for its full result</span></h3>
+    <input class="searchbox" placeholder="Search village…" oninput="filterDir2(this.value)">
+    <table id="villtable"><thead><tr><th>Village / area</th><th class="r">Booths</th><th class="r">Valid votes</th><th>Leading</th></tr></thead>
+    <tbody>${vRowsFirst}${showAllRow}</tbody>
+    <tbody id="vmore" style="display:none">${vRowsRest}</tbody></table>
+  </div>
+  <div class="card mb">
+    <h3>Insights</h3>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:stretch">
+      <div class="insight" style="flex:1;min-width:220px;margin-bottom:0"><b>${flipped.length}</b> of ${vills.length} villages voted against the eventual winner (${winner.n}).</div>
+      <div class="insight" style="flex:1;min-width:220px;margin-bottom:0">Largest: <b>${vills[0][0]}</b> — ${fmt(vills[0][1].valid)} votes across ${vills[0][1].b} booths.</div>
+      <div class="insight" style="flex:1;min-width:220px;margin-bottom:0">Smallest: <b>${vills[vills.length-1][0]}</b> — ${fmt(vills[vills.length-1][1].valid)} votes.</div>
+    </div>
+    <button class="btn mt" onclick="openCompare('${ac}')">Compare villages</button>
+  </div>
+  <div class="card">
+    <h3>Top villages by votes</h3>
+    <div class="vbars">${topBars}</div>
+    <div class="legend">Bar colour = party leading in that village</div>
+  </div>`;
+  window.scrollTo(0,0);
+}
+function filterDir2(q){
+  q=q.toLowerCase();
+  const more = document.getElementById('vmore');
+  const btn = document.getElementById('vshowall');
+  if(q && more){ more.style.display=''; if(btn) btn.style.display='none'; }
+  document.querySelectorAll('#villtable tbody tr').forEach(tr=>{
+    if(tr.id==='vshowall') return;
+    tr.style.display = tr.cells[0].textContent.toLowerCase().includes(q)?'':'none';
+  });
+}
+function acOnly(ac,d){
+  const max = d.cands[0].v;
+  view.innerHTML = crumb([...acCrumb(ac),[ac,null]]) + `
+  <div class="card">
+    <h3>${ac} — constituency result</h3>
+    <table><thead><tr><th class="r">#</th><th>Candidate</th><th>Party</th><th>Votes</th><th class="r">Count</th></tr></thead><tbody>
+    ${d.cands.map(c=>`<tr ${c.t4?'':'style="opacity:.65"'}><td class="num r" style="width:28px;color:var(--tx3)">${c.r}</td>
+      <td style="font-weight:600">${c.n}${c.r===1?'<span class="win">Won</span>':''}</td>
+      <td>${chipP(c.p)}</td>
+      <td style="width:30%"><div class="bar"><i style="width:${100*c.v/max}%;background:${pc(c.p)}"></i></div></td>
+      <td class="r num" style="font-weight:600">${fmt(c.v)}</td></tr>`).join('')}
+    </tbody></table>
+    <div class="note">Government is yet to release Form 20 (booth-wise) data for this constituency. Village-wise results will appear here as soon as it is published.</div>
+  </div>`;
+  window.scrollTo(0,0);
+}
+function openVill(ac,v){
+  const d=DATA[ac], vd=d.villages[v];
+  const entries = d.cands.map(c=>({...c, vv: vd.votes[String(c.i)]||0})).sort((a,b)=>b.vv-a.vv);
+  const total = entries.reduce((s,c)=>s+c.vv,0);
+  const top4 = entries.slice(0,4), others = entries.slice(4);
+  const osum = others.reduce((s,c)=>s+c.vv,0);
+  const max = entries[0].vv||1;
+  const acWinner = d.cands[0];
+  const localWin = entries[0];
+  const row = c=>`<tr><td><a class="cand" onclick="openCand('${ac}',${c.i})">${c.n}</a></td><td>${chipP(c.p)}</td>
+    <td style="width:30%"><div class="bar"><i style="width:${100*c.vv/max}%;background:${pc(c.p)}"></i></div></td>
+    <td class="r num" style="font-weight:600">${fmt(c.vv)}</td><td class="r num" style="color:var(--tx2)">${total?(100*c.vv/total).toFixed(1):0}%</td></tr>`;
+  view.innerHTML = crumb([...acCrumb(ac),[ac,`openAC('${ac}')`],[v,null]]) + `
+  <div class="grid g3 mb">
+    ${statCard('booth','#feefe3','#f0731f', vd.b, 'Booths')}
+    ${statCard('votes','#e8f0fe','#3f83f8', fmt(vd.valid), 'Valid votes')}
+    ${statCard('nota','#eef0f4','#5a6474', vd.nota, 'NOTA')}
+  </div>
+  <div class="card mb">
+    <h3>How ${v} voted <span class="sub">share of valid votes in this village</span></h3>
+    <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+      ${donut([...top4.map(c=>({n:c.n,v:c.vv,c:pc(c.p)})), {n:'Others',v:osum,c:'#c9cfda'}], 150,
+              total?(100*localWin.vv/total).toFixed(0)+'%':'—', localWin.p+' led')}
+      <div style="flex:1;min-width:160px">${legend([...top4.map(c=>({n:c.n+' ('+c.p+')',v:c.vv,c:pc(c.p)})), {n:'Others',v:osum,c:'#c9cfda'}])}</div>
+    </div>
+  </div>
+  <div class="card mb">
+    <h3>${v} <span class="sub">tap the highlighted row for all remaining candidates</span></h3>
+    <table><thead><tr><th>Candidate</th><th>Party</th><th>Votes</th><th class="r">Count</th><th class="r">Share</th></tr></thead>
+    <tbody>${top4.map(row).join('')}
+    <tr class="othersrow" onclick="document.getElementById('oth').style.display='';this.style.display='none'">
+      <td class="lbl">Others — ${others.length} candidates ▾</td><td></td>
+      <td><div class="bar"><i style="width:${100*osum/max}%;background:#e3b23c"></i></div></td>
+      <td class="r num" style="color:var(--am);font-weight:700">${fmt(osum)}</td><td class="r num" style="color:var(--am)">${total?(100*osum/total).toFixed(1):0}%</td></tr>
+    </tbody>
+    <tbody id="oth" style="display:none">${others.map(row).join('')}</tbody></table>
+    ${localWin.i!==acWinner.i ? `<div class="insight mt">This village voted <b>${localWin.p} (${localWin.n})</b> while the constituency elected <b>${acWinner.p} (${acWinner.n})</b>.</div>`:''}
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <button class="btn" onclick="openCompare('${ac}','${v.replace(/'/g,"\\'")}')">Compare this village</button>
+    <button class="btn ${isSaved(ac,v)?'':'ghost'}" onclick="toggleSave('${ac}','${v.replace(/'/g,"\\'")}')">
+      ${isSaved(ac,v) ? '✓ Saved to my list' : '+ Save to my list'}</button>
+  </div>
+  <div class="footnote">Source: Form 20 Final Result Sheet, ${ac}, Haryana Vidhan Sabha 2024 (CEO Haryana). Postal ballots are counted at constituency level and are not part of village totals. MiVote is an independent, unofficial compilation.</div>`;
+  window.scrollTo(0,0);
+}
+var candSort = 'votes';
+function openCand(ac, ci){
+  const d = DATA[ac];
+  const c = d.cands.find(x=>x.i===ci);
+  if(!d.villages || Object.keys(d.villages).length===0){ return openAC(ac); }
+  const acTotal = d.cands.reduce((s,x)=>s+x.v,0);
+  const wonIn = Object.entries(d.villages).filter(([v,vd])=>{
+    let best=-1,bi=0; for(const[i,x] of Object.entries(vd.votes)) if(x>best){best=x;bi=i}
+    return +bi===ci;
+  }).length;
+  view.innerHTML = crumb([...acCrumb(ac),[ac,`openAC('${ac}')`],[c.n,null]]) + `
+  <div class="grid g4 mb">
+    ${statCard('person', pbg(c.p), pc(c.p), c.p, c.n)}
+    ${statCard('votes','#e8f0fe','#3f83f8', fmt(c.v), 'Total EVM votes · '+(100*c.v/acTotal).toFixed(1)+'%')}
+    ${statCard('rank','#eeeefb','#5b5bd6', '#'+c.r, 'Rank in constituency')}
+    ${statCard('vill','#e7f6ef','#12915f', wonIn, 'Villages led')}
+  </div>
+  <div class="card mb" id="candchart"></div>
+  <div class="card">
+    <h3>Village-wise performance
+      <span class="sub" style="display:flex;gap:6px;align-items:center">Sort
+        <button class="sortbtn ${candSort==='votes'?'on':''}" onclick="candSort='votes';openCand('${ac}',${ci})">By votes</button>
+        <button class="sortbtn ${candSort==='pct'?'on':''}" onclick="candSort='pct';openCand('${ac}',${ci})">By percentage</button>
+      </span></h3>
+    <table><thead><tr><th>Village / area</th><th class="r">Votes / total polled</th><th style="width:30%">Share of village</th><th class="r">%</th></tr></thead>
+    <tbody id="candvills"></tbody></table>
+    <div class="footnote">“By votes” ranks villages by raw votes received. “By percentage” ranks by share of that village’s valid votes — a village giving 120 of 125 votes (96%) tops one giving 6,000 of 12,000 (50%).</div>
+  </div>`;
+  const list = Object.entries(d.villages).map(([v,vd])=>{
+    const mv = vd.votes[String(ci)]||0;
+    return {v, mv, tot: vd.valid, pct: vd.valid? 100*mv/vd.valid : 0};
+  });
+  list.sort((a,b)=> candSort==='votes'? (b.mv-a.mv || b.pct-a.pct) : (b.pct-a.pct || b.mv-a.mv));
+  const chartTop = list.slice(0,10);
+  document.getElementById('candchart').innerHTML =
+    `<h3>Strongest villages <span class="sub">${candSort==='votes'?'by votes received':'by share of the village'}</span></h3>` +
+    hbarChart(chartTop.map(x=>({n:x.v, v: candSort==='votes'? x.mv : x.pct, c: pc(c.p),
+      label: candSort==='votes'? fmt(x.mv) : x.pct.toFixed(1)+'%'})));
+  document.getElementById('candvills').innerHTML = list.map(x=>`
+    <tr class="click" onclick="openVill('${ac}','${x.v.replace(/'/g,"\\'")}')">
+    <td style="font-weight:600">${x.v}</td>
+    <td class="r num">${fmt(x.mv)} / ${fmt(x.tot)}</td>
+    <td><div class="bar"><i style="width:${x.pct}%;background:${pc(c.p)}"></i></div></td>
+    <td class="r num" style="font-weight:600">${x.pct.toFixed(1)}%</td></tr>`).join('');
+  window.scrollTo(0,0);
+}
+const ELECTIONS = [
+  {id:'vs2024', label:'Vidhan Sabha 2024', short:'VS 2024', on:true},
+  {id:'ls2024', label:'Lok Sabha 2024',    short:'LS 2024', on:false},
+  {id:'vs2019', label:'Vidhan Sabha 2019', short:'VS 2019', on:false},
+  {id:'ls2019', label:'Lok Sabha 2019',    short:'LS 2019', on:false},
+];
+const PARTY_ORDER = ['BJP','INC','INLD','JJP','BSP','AAP','Others / IND'];
+const partyKey = p => (p && PARTY_ORDER.includes(p)) ? p : 'Others / IND';
+
+// Each election is a layer on the same constituency file: vs2024 lives at the
+// top level, later elections in a block of their own (d.ls2024, d.vs2019 ...).
+function layer(eid, ac){
+  const d = DATA[ac]; if(!d) return null;
+  if(eid === 'vs2024') return d.villages ? d : null;
+  return d[eid] || null;
+}
+
+function villageShares(eid, ac, v){
+  const d = layer(eid, ac);
+  if(!d || !d.villages || !d.villages[v]) return null;
+  const vd = d.villages[v], out = {};
+  d.cands.forEach(c=>{
+    const k = partyKey(c.p);
+    out[k] = (out[k]||0) + (vd.votes[String(c.i)]||0);
+  });
+  const tot = vd.valid || Object.values(out).reduce((a,b)=>a+b,0);
+  const pct = {}; Object.keys(out).forEach(k=> pct[k] = tot? 100*out[k]/tot : 0);
+  return {votes: out, pct, total: tot, winner: Object.entries(out).sort((a,b)=>b[1]-a[1])[0]};
+}
+
+var compareMode = 'elections';
+function openCompare(ac, v1){
+  const d = DATA[ac];
+  const names = Object.keys(d.villages).sort();
+  v1 = v1 || names[0];
+  const opts = sel => names.map(n=>`<option ${n===sel?'selected':''}>${n.replace(/</g,'')}</option>`).join('');
+  const tab = (id,label)=>`<button class="sortbtn ${compareMode===id?'on':''}" onclick="compareMode='${id}';openCompare('${ac}', document.getElementById('cmpA').value)">${label}</button>`;
+  view.innerHTML = crumb([...acCrumb(ac),[ac,`openAC('${ac}')`],['Compare',null]]) + `
+  <div class="card mb">
+    <h3>Compare <span class="sub" style="display:flex;gap:6px">${tab('elections','Across elections')}${tab('villages','Village vs village')}</span></h3>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+      <select id="cmpA" onchange="renderCompare('${ac}')">${opts(v1)}</select>
+      <span id="vsLbl" style="color:var(--tx3);font-weight:600;display:${compareMode==='villages'?'':'none'}">vs</span>
+      <select id="cmpB" onchange="renderCompare('${ac}')" style="display:${compareMode==='villages'?'':'none'}">
+        <option value="__AC__">— whole constituency —</option>${opts(names.find(n=>n!==v1))}</select>
+    </div>
+    <div id="cmpout" class="mt"></div>
+  </div>`;
+  renderCompare(ac);
+  window.scrollTo(0,0);
+}
+
+function renderCompare(ac){
+  if(compareMode === 'elections') return renderAcrossElections(ac);
+  return renderVillageVsVillage(ac);
+}
+
+function renderAcrossElections(ac){
+  const v = document.getElementById('cmpA').value;
+  // Columns run oldest to newest. The 2024 Lok Sabha poll was held in May and the
+  // Vidhan Sabha in October, so LS 2024 comes BEFORE VS 2024 - listing them the
+  // other way round made every gain read as a loss.
+  const TIMELINE = ['ls2019','vs2019','ls2024','vs2024'];
+  // availability is per constituency, not global - Lok Sabha 2024 currently
+  // exists for the Sirsa segments only
+  const data = TIMELINE.map(id=>({e: ELECTIONS.find(e=>e.id===id), s: villageShares(id, ac, v)}));
+  const live = data.filter(x=>x.s);
+  const parties = PARTY_ORDER.filter(p => live.some(x => (x.s.pct[p]||0) > 0));
+  const chgLbl = live.length>1
+    ? `${live[live.length-2].e.short} → ${live[live.length-1].e.short}` : 'Change';
+  const head = `<tr><th>Party</th>${data.map(x=>`<th class="r" style="${x.s?'':'color:var(--tx3)'}">${x.e.short}</th>`).join('')}${live.length>1?`<th class="r">${chgLbl}</th>`:''}</tr>`;
+  const rows = parties.map(p=>{
+    const cells = data.map(x=>{
+      if(!x.s) return `<td class="r" style="color:var(--tx3)">—</td>`;
+      // a party that fielded nobody is not the same as one that polled zero
+      if(!(p in x.s.pct)) return `<td class="r" style="color:var(--tx3)" title="did not contest">—</td>`;
+      const pctv = x.s.pct[p]||0, vts = x.s.votes[p]||0;
+      // turnout differs between elections, so the count is not recoverable from
+      // the share alone - show both
+      return `<td class="r"><div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">
+        <div class="bar" style="width:70px"><i style="width:${pctv}%;background:${pc(p.split(' ')[0])}"></i></div>
+        <span class="num" style="font-weight:600;min-width:44px">${pctv.toFixed(1)}%</span></div>
+        <div class="num" style="font-size:11px;color:var(--tx3)">${fmt(vts)} votes</div></td>`;
+    }).join('');
+    let chg = '';
+    if(live.length>1){
+      // newest minus the one before it, both in chronological order
+      const B = live[live.length-1].s, A = live[live.length-2].s;
+      if(!(p in B.pct) && !(p in A.pct)){
+        chg = `<td class="r" style="color:var(--tx3)">—</td>`;
+      } else {
+        const dv = (B.pct[p]||0)-(A.pct[p]||0), dvv = (B.votes[p]||0)-(A.votes[p]||0);
+        chg = `<td class="r"><div class="num" style="font-weight:700;color:${dv>0?'var(--gn)':'#c23b3b'}">${dv>0?'+':''}${dv.toFixed(1)}</div>
+          <div class="num" style="font-size:11px;color:var(--tx3)">${dvv>0?'+':''}${fmt(dvv)} votes</div></td>`;
+      }
+    }
+    return `<tr><td>${chipP(p.split(' ')[0])}</td>${cells}${chg}</tr>`;
+  }).join('');
+  const winRow = `<tr><td style="font-weight:700">Village winner</td>${data.map(x=>
+      x.s ? `<td class="r" style="font-weight:600">${x.s.winner[0]}</td>` : `<td class="r" style="color:var(--tx3)">—</td>`).join('')}${live.length>1?'<td></td>':''}</tr>`;
+  const turnRow = `<tr><td style="font-weight:700">Valid votes polled</td>${data.map(x=>
+      x.s ? `<td class="r num" style="font-weight:600">${fmt(x.s.total)}</td>` : `<td class="r" style="color:var(--tx3)">—</td>`).join('')}${
+      live.length>1?`<td class="r num" style="color:var(--tx3)">${
+        (live[live.length-1].s.total-live[live.length-2].s.total>0?'+':'')
+        + fmt(live[live.length-1].s.total-live[live.length-2].s.total)}</td>`:''}</tr>`;
+  // an empty column means one of two different things - say which
+  const d0 = DATA[ac];
+  const pending = data.filter(x=>!x.s && !d0[x.e.id]).map(x=>x.e.label);
+  const notHere = data.filter(x=>!x.s && d0[x.e.id]).map(x=>x.e.short);
+  // chronological trend: LS 2019 -> VS 2019 -> LS 2024 -> VS 2024
+  const ORDER = ['ls2019','vs2019','ls2024','vs2024'];
+  const byId = Object.fromEntries(data.map(x=>[x.e.id, x]));
+  const labels = ORDER.map(id=>({text: ELECTIONS.find(e=>e.id===id).short, on: !!(byId[id] && byId[id].s)}));
+  // null, not zero, where the party fielded no candidate - the line breaks
+  // rather than diving to the axis and implying a collapse in support
+  const series = parties.map(p=>({
+    name: p.split(' ')[0], color: pc(p.split(' ')[0]),
+    values: ORDER.map(id => (byId[id] && byId[id].s && (p in byId[id].s.pct))
+                            ? byId[id].s.pct[p] : null)
+  }));
+  const liveCount = labels.filter(l=>l.on).length;
+  document.getElementById('cmpout').innerHTML = `
+  <div class="card" style="box-shadow:none;border-color:var(--line);margin-bottom:12px">
+    <h3>Vote-share trend <span class="sub">${v}${live.length < ELECTIONS.length
+      ? ' · shaded columns are elections not yet loaded'
+      : ' · four elections, oldest to newest'}</span></h3>
+    ${lineChart(series, labels)}
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:8px">
+      ${parties.map(p=>`<span style="display:flex;align-items:center;gap:6px;font-size:12.5px">
+        <span style="width:14px;height:3px;border-radius:2px;background:${pc(p.split(' ')[0])}"></span>${p}</span>`).join('')}
+    </div>
+    ${liveCount < 2 ? `<div class="footnote">One election is loaded, so each party shows a single point.
+      The line joins up as Lok Sabha 2024 and the 2019 elections are added.</div>` : ''}
+  </div>
+  <div style="overflow-x:auto"><table><thead>${head}</thead><tbody>${rows}${turnRow}${winRow}</tbody></table></div>
+  ${(()=>{
+    if(live.length<2) return `<div class="insight mt">Showing how <b>${v}</b> voted, party by party,
+      in every election we hold data for.</div>`;
+    const A = live[live.length-2], B = live[live.length-1];
+    const moves = parties.map(p=>({p, d:(B.s.pct[p]||0)-(A.s.pct[p]||0)}))
+                         .sort((a,b)=>Math.abs(b.d)-Math.abs(a.d));
+    const up = moves.find(m=>m.d>0), down = moves.find(m=>m.d<0);
+    const flip = A.s.winner[0] !== B.s.winner[0];
+    return `<div class="insight mt">Between <b>${A.e.label}</b> and <b>${B.e.label}</b>,
+      <b>${v}</b> moved ${up?`<b>${up.d.toFixed(1)} points towards ${up.p.split(' ')[0]}</b>`:'little'}${
+        down?` and ${Math.abs(down.d).toFixed(1)} away from ${down.p.split(' ')[0]}`:''}.
+      ${flip?`The village changed hands — ${A.s.winner[0]} to <b>${B.s.winner[0]}</b>.`
+            :`${B.s.winner[0]} held the village in both.`}</div>`;
+  })()}
+  ${notHere.length? `<div class="note">${notHere.join(' · ')} is loaded for this constituency, but not for
+    <b>${v}</b>. The Lok Sabha Form 20 groups town booths under a single station name, so wards inside a
+    town cannot be separated the way the assembly sheet allows.</div>`:''}
+  ${pending.length? `<div class="note">Coming next: ${pending.join(' · ')}. These columns fill in automatically once the data is added — no change needed to this page.</div>`:''}
+  <div class="footnote">Columns run oldest to newest. In 2024 the Lok Sabha was polled in May and the
+    Vidhan Sabha in October, so a positive change means the party <b>gained</b> ground over those five months.
+    Compared party-wise, not candidate-wise, because candidates differ between elections. Shares are of valid
+    EVM votes polled in this village; postal votes are counted at constituency level and are not in Form 20.</div>`;
+}
+
+function renderVillageVsVillage(ac){
+  const d = DATA[ac];
+  const a = document.getElementById('cmpA').value;
+  const bsel = document.getElementById('cmpB').value;
+  const getShares = (votesObj, valid) => d.cands.map(c=>({n:c.n,p:c.p, s: valid? 100*(votesObj[String(c.i)]||0)/valid : 0, v: votesObj[String(c.i)]||0}));
+  const va = d.villages[a];
+  const A = getShares(va.votes, va.valid);
+  let B, bl;
+  if(bsel==='__AC__'){
+    const tot = d.cands.reduce((s,c)=>s+c.v,0);
+    B = d.cands.map(c=>({n:c.n,p:c.p,s:100*c.v/tot,v:c.v})); bl = ac+' (all)';
+  } else { const vb=d.villages[bsel]; B = getShares(vb.votes, vb.valid); bl = bsel; }
+  const top = d.cands.filter(c=>c.t4);
+  // share alone hides how much weight a village carries - 58% of 400 votes is a
+  // smaller prize than 19% of 5,000 - so print the count under every share
+  const cell = (sh, dim) => `<td class="r"><div class="num" style="font-weight:${dim?600:700};
+      color:${dim?'var(--tx2)':'var(--tx)'}">${sh.s.toFixed(1)}%</div>
+    <div class="num" style="font-size:11px;color:var(--tx3)">${fmt(sh.v)}</div></td>`;
+  const rows = top.map(c=>{
+    const sa=A.find(x=>x.n===c.n), sb=B.find(x=>x.n===c.n);
+    const diff = sa.s-sb.s, dv = sa.v-sb.v;
+    return `<tr><td style="font-weight:600">${c.n}<br>${chipP(c.p)}</td>
+    <td style="width:22%"><div class="bar"><i style="width:${sa.s}%;background:${pc(c.p)}"></i></div></td>
+    ${cell(sa,false)}
+    <td style="width:22%"><div class="bar"><i style="width:${sb.s}%;background:${pc(c.p)};opacity:.5"></i></div></td>
+    ${cell(sb,true)}
+    <td class="r"><div class="num" style="font-weight:700;color:${diff>0?'var(--gn)':'#c23b3b'}">${diff>0?'+':''}${diff.toFixed(1)}</div>
+      <div class="num" style="font-size:11px;color:var(--tx3)">${dv>0?'+':''}${fmt(dv)}</div></td></tr>`;
+  }).join('');
+  const totA = A.reduce((s,x)=>s+x.v,0), totB = B.reduce((s,x)=>s+x.v,0);
+  const totRow = `<tr><td style="font-weight:700">Valid votes polled</td><td></td>
+    <td class="r num" style="font-weight:700">${fmt(totA)}</td><td></td>
+    <td class="r num" style="font-weight:700;color:var(--tx2)">${fmt(totB)}</td>
+    <td class="r num" style="color:var(--tx3)">${totB?(totA/totB).toFixed(2)+'×':''}</td></tr>`;
+  const wA = A.slice().sort((x,y)=>y.v-x.v)[0], wB = B.slice().sort((x,y)=>y.v-x.v)[0];
+  document.getElementById('cmpout').innerHTML = `
+  <div style="overflow-x:auto"><table><thead><tr><th>Candidate</th><th>${a}</th><th class="r">Share · votes</th><th>${bl}</th><th class="r">Share · votes</th><th class="r">Δ pts · votes</th></tr></thead>
+  <tbody>${rows}${totRow}</tbody></table></div>
+  <div class="insight mt">${a} leader: <b>${wA.n} (${wA.p})</b> · ${bl} leader: <b>${wB.n} (${wB.p})</b>${wA.p!==wB.p?' — <b>different winners</b>':''}</div>
+  <div class="footnote">Percentages are of valid EVM votes polled in each place, so they are comparable
+    even when one is far larger than the other. The vote counts underneath show that difference in size.</div>`;
+}
+
+/* record each screen in the back-history */
+(function(){
+  const screens = {
+    landing: landing, home: home, openLS: openLS, openAC: openAC, openVill: openVill,
+    openCand: openCand, openCompare: openCompare, myList: myList,
+    aboutFounder: aboutFounder, authScreen: authScreen, otpScreen: otpScreen
+  };
+  const PUBLIC = {authScreen:1, otpScreen:1};
+  Object.keys(screens).forEach(name=>{
+    const fn = screens[name];
+    globalThis[name] = function(){
+      const args = Array.prototype.slice.call(arguments);
+      if(!PUBLIC[name] && !currentUser()){        // must be signed in
+        authMode = 'login';
+        return screens.authScreen('Please log in to use MiVote.');
+      }
+      const key = name + '|' + args.filter(a=>typeof a !== 'object').join('|');
+      if(name === 'landing') NAV = [];
+      pushNav(key, ()=> fn.apply(null, args));
+      return fn.apply(null, args);
+    };
+  });
+})();
+
+seedBuiltin();
+paintHeader();
+if(currentUser()){ landing(); } else { authMode = "login"; authScreen(); }
+</script>
+</body>
+</html>

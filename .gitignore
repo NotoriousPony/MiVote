@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+venv/
+.env
+*.db
+# raw Form 20 PDFs are inputs, not source - fetch them with download_form20.py
+pipeline/form20_pipeline/elections/*/data/form20/
+pipeline/form20_pipeline/elections/*/output/parse_cache/
